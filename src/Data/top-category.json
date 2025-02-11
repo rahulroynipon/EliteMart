@@ -2,51 +2,73 @@
   {
     "_id": "women",
     "label": "Women",
-    "image": ""
+    "image": "women.png"
   },
   {
     "_id": "men",
     "label": "Men",
-    "image": ""
+    "image": "men.png"
   },
   {
     "_id": "kids",
     "label": "Kids",
-    "image": ""
+    "image": "kids.png"
   },
   {
     "_id": "home-living",
     "label": "Home & Living",
-    "image": ""
+    "image": "home&living.png"
   },
   {
     "_id": "beauty",
     "label": "Beauty",
-    "image": ""
+    "image": "beauty.png"
   },
   {
     "_id": "bags-footwear",
     "label": "Bags & Footwear",
-    "image": ""
+    "image": "bags&footwear.png"
   },
   {
     "_id": "jewellery",
     "label": "Jewellery",
-    "image": ""
+    "image": "jewellery.png"
   },
   {
     "_id": "electronics",
     "label": "Electronics",
-    "image": ""
+    "image": "electronics.png"
+  },
+  {
+    "_id": "three-piece",
+    "label": "Three Piece",
+    "image": "threePiece.png"
+  },
+
+  {
+    "_id": "smart-watches",
+    "label": "Smart Watches",
+    "image": "smartWatch.png"
+  },
+  {
+    "_id": "polo-shirt",
+    "label": "Polo Shirt",
+    "image": "poloShirt.png"
+  },
+  {
+    "_id": "t-shirt",
+    "label": "T Shirt",
+    "image": "tShirt.png"
+  },
+
+  {
+    "_id": "mobile",
+    "label": "Mobile",
+    "image": "mobile.png"
   },
   {
     "_id": "mobile-accessories",
     "label": "Mobile & Accessories",
-    "image": ""
-  },
-  {
-    "_id": "mobile",
-    "label": "Mobile",
-    "image": ""
+    "image": "accessories.png"
   }
 ]

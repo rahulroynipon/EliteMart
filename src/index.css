@@ -2,4 +2,10 @@
 
 @theme {
   --font-Poppins: "Poppins", "serif";
+  --color-primary: #007025;
+  --color-secondary: #007bff;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray: #999999;
+  --color-light-gray: #f5f5f5;
 }

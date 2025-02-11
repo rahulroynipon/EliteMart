@@ -1,0 +1,135 @@
+[
+  {
+    "_id": "women",
+    "label": "Women",
+    "categories": [
+      {
+        "_id": "women-fashion-wear",
+        "label": "Women Fashion Wear",
+        "subCategories": [
+          { "_id": "salwar-kameez", "label": "Salwar Kameez" },
+          { "_id": "saree", "label": "Saree" },
+          { "_id": "three-piece", "label": "Three Piece" },
+          { "_id": "court-sharee", "label": "Court Sharee" }
+        ]
+      },
+      { "_id": "women-bottom-wear", "label": "Women Bottom Wear" },
+      {
+        "_id": "women-lingerie-&-sleepwear",
+        "label": "Women Lingerie & Sleepwear",
+        "subCategories": [
+          { "_id": "bra", "label": "Bra" },
+          { "_id": "panty", "label": "Panty" }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "men",
+    "label": "Men",
+    "categories": [
+      {
+        "_id": "men-accessories",
+        "label": "Men Accessories",
+        "subCategories": [
+          { "_id": "watch", "label": "Watch" },
+          { "_id": "belt", "label": "Belt" },
+          {
+            "_id": "trimmers-groomers-&-shavers",
+            "label": "Trimmers, Groomers & Shavers"
+          }
+        ]
+      },
+      {
+        "_id": "men-top-wear",
+        "label": "Men Top Wear",
+        "subCategories": [
+          { "_id": "panjabi", "label": "Panjabi" },
+          { "_id": "shirt", "label": "Shirt" },
+          { "_id": "t-shirt", "label": "T-Shirt" },
+          { "_id": "polo-shirt", "label": "Polo Shirt" },
+          { "_id": "sweatshirts", "label": "Sweatshirts" },
+          { "_id": "hoodies", "label": "Hoodies" }
+        ]
+      },
+      {
+        "_id": "men-bottom-wear",
+        "label": "Men Bottom Wear",
+        "subCategories": [
+          { "_id": "denim-pant", "label": "Denim Pant" },
+          { "_id": "trousers", "label": "Trousers" },
+          { "_id": "formal-pant", "label": "Formal Pant" },
+          { "_id": "mens-gabardine", "label": "Men's Gabardine" }
+        ]
+      },
+      {
+        "_id": "men-innerwear-&-sleepwear",
+        "label": "Men Innerwear & Sleepwear",
+        "subCategories": [{ "_id": "underwear", "label": "Underwear" }]
+      },
+      { "_id": "men-ethnic-wear", "label": "Men Ethnic Wear" }
+    ]
+  },
+  {
+    "_id": "kids",
+    "label": "Kids",
+    "categories": [
+      { "_id": "boys-clothing", "label": "Boys Clothing" },
+      { "_id": "girls-clothing", "label": "Girls Clothing" },
+      { "_id": "kids-footwear", "label": "Kids Footwear" }
+    ]
+  },
+  { "_id": "home-living", "label": "Home & Living" },
+  {
+    "_id": "beauty",
+    "label": "Beauty",
+    "categories": [
+      { "_id": "makeup", "label": "Makeup" },
+      { "_id": "skincare", "label": "Skincare" },
+      { "_id": "haircare", "label": "Haircare" },
+      { "_id": "fragrances", "label": "Fragrances" },
+      { "_id": "perfumes", "label": "Perfumes" },
+      { "_id": "mens-grooming", "label": "Men's Grooming" }
+    ]
+  },
+  {
+    "_id": "bags-&-footwear",
+    "label": "Bags & Footwear",
+    "categories": [
+      { "_id": "men-bags", "label": "Men Bags" },
+      { "_id": "women-bags", "label": "Women Bags" },
+      { "_id": "men-footwear", "label": "Men Footwear" },
+      { "_id": "women-footwear", "label": "Women Footwear" }
+    ]
+  },
+  { "_id": "jewellery", "label": "Jewellery" },
+  {
+    "_id": "electronics",
+    "label": "Electronics",
+    "categories": [
+      {
+        "_id": "mobile-&-accessories",
+        "label": "Mobile & Accessories",
+        "subCategories": [
+          { "_id": "mobile", "label": "Mobile" },
+          { "_id": "accessories", "label": "Accessories" },
+          { "_id": "smart-watches", "label": "Smart Watches" },
+          {
+            "_id": "mobile-cases-and-covers",
+            "label": "Mobile Cases and Covers"
+          }
+        ]
+      },
+      {
+        "_id": "audio",
+        "label": "Audio",
+        "subCategories": [
+          { "_id": "headphones", "label": "Headphones" },
+          { "_id": "earphones", "label": "Earphones" },
+          { "_id": "speakers", "label": "Speakers" }
+        ]
+      },
+      { "_id": "smart-wearables", "label": "Smart Wearables" }
+    ]
+  }
+]

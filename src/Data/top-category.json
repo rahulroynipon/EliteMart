@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "women",
+    "label": "Women",
+    "image": ""
+  },
+  {
+    "_id": "men",
+    "label": "Men",
+    "image": ""
+  },
+  {
+    "_id": "kids",
+    "label": "Kids",
+    "image": ""
+  },
+  {
+    "_id": "home-living",
+    "label": "Home & Living",
+    "image": ""
+  },
+  {
+    "_id": "beauty",
+    "label": "Beauty",
+    "image": ""
+  },
+  {
+    "_id": "bags-footwear",
+    "label": "Bags & Footwear",
+    "image": ""
+  },
+  {
+    "_id": "jewellery",
+    "label": "Jewellery",
+    "image": ""
+  },
+  {
+    "_id": "electronics",
+    "label": "Electronics",
+    "image": ""
+  },
+  {
+    "_id": "mobile-accessories",
+    "label": "Mobile & Accessories",
+    "image": ""
+  },
+  {
+    "_id": "mobile",
+    "label": "Mobile",
+    "image": ""
+  }
+]

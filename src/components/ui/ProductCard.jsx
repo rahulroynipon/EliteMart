@@ -1,16 +1,21 @@
 import PropTypes from "prop-types";
 import { StarRating } from "./StarRating";
 import { BsCart3 } from "react-icons/bs";
-import { Link } from "react-router";
+import { Link, useNavigate } from "react-router";
 
 export const ProductCard = ({ product }) => {
+  const navigate = useNavigate();
   const discountedPrice = product.discount
     ? product.price - product.discount
     : product.price;
 
+  const viewProduct = () => {
+    navigate(`/product/${product.title}`);
+  };
+
   return (
     <div
-      className="w-full border border-gray-200 bg-white cursor-pointer
+      className="w-full border border-gray-200 bg-white 
        hover:ring-1 ring-primary/20 transition-all duration-300 hover:shadow-lg"
     >
       <div className="h-[13rem] relative bg-gray-200 flex justify-center items-center">

@@ -1,12 +1,9 @@
 import PropTypes from "prop-types";
 import { ProductCard } from "../ui/ProductCard";
 import { Link } from "react-router";
-import Container from "../global/Container";
-
-
+import Container from "./Container";
 
 const ProductSection = ({ title, products, viewAllLink }) => {
-
   return (
     <Container className="flex-col space-y-5">
       {/* Header Section */}

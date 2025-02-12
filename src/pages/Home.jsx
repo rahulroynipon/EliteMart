@@ -4,7 +4,7 @@ import Brands from "../Data/brand.json";
 import HomeSEO from "../components/home/HomeSEO";
 import HeroSection from "../components/home/HeroSection";
 import TopSection from "../components/home/TopSection";
-import ProductSection from "../components/home/ProductSection";
+import ProductSection from "../components/global/ProductSection";
 import BrandSection from "../components/home/BrandSection";
 
 const Home = () => {

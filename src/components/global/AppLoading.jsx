@@ -17,7 +17,7 @@ const AppLoading = () => {
   ];
 
   return (
-    <div className="fixed z-50 inset-0 w-full h-full min-h-screen max-h-screen bg-light-gray/30 backdrop-blur flex items-center justify-center">
+    <div className="fixed z-50 inset-0 w-full h-full min-h-screen max-h-screen bg-light-gray/30 backdrop-blur flex items-center justify-center px-2">
       <div className="flex flex-col items-center space-y-4">
         <motion.div
           initial={{ opacity: 0, y: -20, scale: 0.8 }}
@@ -58,26 +58,9 @@ const AppLoading = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: letters.length * 0.1 + 0.5 }}
         >
-          <span className="text-gray-500 text-lg">
+          <span className="text-gray-500 text-lg text-center">
             You're on the ultimate shopping destination!
           </span>
-          <div className="flex space-x-1">
-            {[0, 1, 2].map((i) => (
-              <motion.div
-                key={i}
-                className="w-1 h-1 bg-gray-500 rounded-full"
-                animate={{
-                  y: ["0%", "-50%", "0%"],
-                }}
-                transition={{
-                  duration: 0.6,
-                  repeat: Infinity,
-                  delay: i * 0.15,
-                  ease: "easeInOut",
-                }}
-              />
-            ))}
-          </div>
         </motion.div>
       </div>
     </div>

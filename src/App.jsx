@@ -3,6 +3,7 @@ import React, { Suspense, lazy, useEffect, useState } from "react";
 
 import Layout from "./components/layout/Layout";
 import AppLoading from "./components/global/AppLoading";
+import PageLoading from "./components/global/PageLoading";
 
 const Home = lazy(() => import("./pages/Home"));
 const Product = lazy(() => import("./pages/Product"));
@@ -19,21 +20,22 @@ function App() {
     return () => clearTimeout(loadingTimer);
   }, []);
 
+  if (isLoading) {
+    return <AppLoading />;
+  }
+
   return (
-    <>
-      {isLoading && <AppLoading />}
-      <BrowserRouter>
-        <Suspense fallback={<AppLoading />}>
-          <Routes>
-            <Route path="/" element={<Layout />}>
-              <Route index element={<Home />} />
-              <Route path="product/:id" element={<Product />} />
-            </Route>
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </Suspense>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Suspense fallback={<PageLoading />}>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="product/:id" element={<Product />} />
+          </Route>
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Suspense>
+    </BrowserRouter>
   );
 }
 

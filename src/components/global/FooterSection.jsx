@@ -7,7 +7,7 @@ import { Link } from "react-router";
 
 export const FooterSection = () => {
   return (
-    <footer className="mt-16 w-full bg-footer border-t border-gray-300 overflow-x-hidden">
+    <footer className="mt-16 mb-20 lg:mb-0 w-full bg-footer border-t border-gray-300 overflow-x-hidden">
       <div
         className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2
        md:grid-cols-4 gap-8 px-5 xl:px-0 py-12"

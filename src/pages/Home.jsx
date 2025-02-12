@@ -55,8 +55,8 @@ const Home = () => {
 
         {/* Brand section start here */}
         <BrandSection
-          title="Shop by Brandss"
-          barnds={Brands}
+          title="Shop by Brands"
+          brands={Brands}
           viewAllLink="/brands"
         />
       </main>

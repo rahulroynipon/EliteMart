@@ -2,6 +2,7 @@
   {
     "_id": "women",
     "label": "Women",
+    "image": "women.png",
     "categories": [
       {
         "_id": "women-fashion-wear",
@@ -27,6 +28,7 @@
   {
     "_id": "men",
     "label": "Men",
+    "image": "men.png",
     "categories": [
       {
         "_id": "men-accessories",
@@ -73,16 +75,22 @@
   {
     "_id": "kids",
     "label": "Kids",
+    "image": "kids.png",
     "categories": [
       { "_id": "boys-clothing", "label": "Boys Clothing" },
       { "_id": "girls-clothing", "label": "Girls Clothing" },
       { "_id": "kids-footwear", "label": "Kids Footwear" }
     ]
   },
-  { "_id": "home-living", "label": "Home & Living" },
+  {
+    "_id": "home-living",
+    "label": "Home & Living",
+    "image": "home&living.png"
+  },
   {
     "_id": "beauty",
     "label": "Beauty",
+    "image": "beauty.png",
     "categories": [
       { "_id": "makeup", "label": "Makeup" },
       { "_id": "skincare", "label": "Skincare" },
@@ -95,6 +103,7 @@
   {
     "_id": "bags-&-footwear",
     "label": "Bags & Footwear",
+    "image": "bags&footwear.png",
     "categories": [
       { "_id": "men-bags", "label": "Men Bags" },
       { "_id": "women-bags", "label": "Women Bags" },
@@ -102,10 +111,11 @@
       { "_id": "women-footwear", "label": "Women Footwear" }
     ]
   },
-  { "_id": "jewellery", "label": "Jewellery" },
+  { "_id": "jewellery", "label": "Jewellery", "image": "jewellery.png" },
   {
     "_id": "electronics",
     "label": "Electronics",
+    "image": "electronics.png",
     "categories": [
       {
         "_id": "mobile-&-accessories",

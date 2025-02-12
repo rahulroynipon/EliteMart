@@ -2,6 +2,7 @@ import React, { useMemo } from "react";
 import Categories from "../../Data/top-category.json";
 import { CategoryCard } from "../ui/CategoryCard";
 import useIsMobile from "../../hook/useIsMobile";
+import Container from "../global/Container";
 
 const TopSection = () => {
   const isMobile = useIsMobile();
@@ -11,13 +12,16 @@ const TopSection = () => {
   }, [isMobile]);
 
   return (
-    <section className="flex items-center justify-center">
-      <div className="w-full max-w-7xl grid grid-cols-3 md:grid-cols-7 gap-1 md:gap-0 px-5 items-center">
+    <Container className="flex-col space-y-5">
+      <h3 className="w-full  text-base md:text-xl font-semibold  text-gray-700">
+        Top Categories
+      </h3>
+      <div className="w-full grid grid-cols-3 md:grid-cols-7 gap-1 md:gap-0 items-center">
         {filteredCategories.map((item) => (
           <CategoryCard key={item?._id} category={item} />
         ))}
       </div>
-    </section>
+    </Container>
   );
 };
 

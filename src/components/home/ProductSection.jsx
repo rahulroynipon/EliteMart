@@ -1,17 +1,23 @@
 import PropTypes from "prop-types";
 import { ProductCard } from "../ui/ProductCard";
 import { Link } from "react-router";
+import Container from "../global/Container";
+
+
 
 const ProductSection = ({ title, products, viewAllLink }) => {
+
   return (
-    <section className="flex flex-col space-y-5 items-center justify-center w-full">
+    <Container className="flex-col space-y-5">
       {/* Header Section */}
-      <div className="w-full max-w-7xl flex items-center justify-between flex-wrap px-5">
-        <h3 className="text-xl font-semibold text-gray-700">{title}</h3>
+      <div className="w-full flex items-center justify-between flex-wrap">
+        <h3 className="text-base md:text-xl font-semibold text-gray-700">
+          {title}
+        </h3>
         {viewAllLink && (
           <Link
             to={viewAllLink}
-            className="font-medium text-blue-600 hover:underline px-3 py-1"
+            className=" text-sm md:text-base font-medium text-blue-600 hover:underline px-3 py-1"
           >
             View All
           </Link>
@@ -19,7 +25,7 @@ const ProductSection = ({ title, products, viewAllLink }) => {
       </div>
 
       {/* Main Grid */}
-      <div className="w-full max-w-7xl grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2 px-5">
+      <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 ">
         {products?.length > 0 ? (
           products.map((product) => (
             <ProductCard key={product._id} product={product} />
@@ -30,7 +36,7 @@ const ProductSection = ({ title, products, viewAllLink }) => {
           </p>
         )}
       </div>
-    </section>
+    </Container>
   );
 };
 

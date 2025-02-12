@@ -1,37 +1,37 @@
 [
   {
     "_id": "1",
-    "name": "Nike",
-    "image": "/assets/brands/nike.png"
+    "name": "lacoste",
+    "image": "lacoste.jpg"
   },
   {
     "_id": "2",
-    "name": "Adidas",
-    "image": "/assets/brands/adidas.png"
+    "name": "non-brand",
+    "image": "non-brand.png"
   },
   {
     "_id": "3",
-    "name": "Puma",
-    "image": "/assets/brands/puma.png"
+    "name": "tommy",
+    "image": "tommy.png"
   },
   {
     "_id": "4",
-    "name": "Reebok",
-    "image": "/assets/brands/reebok.png"
+    "name": "gucci",
+    "image": "gucci.jpeg"
   },
   {
     "_id": "5",
-    "name": "Under Armour",
-    "image": "/assets/brands/under_armour.png"
+    "name": "american-eagle",
+    "image": "american-eagle.jpg"
   },
   {
     "_id": "6",
-    "name": "New Balance",
-    "image": "/assets/brands/new_balance.png"
+    "name": "puri",
+    "image": "puri.jpg"
   },
   {
     "_id": "7",
-    "name": "Non Brand",
-    "image": "/assets/brands/new_balance.png"
+    "name": "nikey",
+    "image": "nikey.png"
   }
 ]

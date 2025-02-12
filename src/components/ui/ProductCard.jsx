@@ -20,7 +20,7 @@ export const ProductCard = ({ product }) => {
           className="w-full h-full object-cover"
         /> */}
         {product.discount > 0 && (
-          <span className="absolute top-0 right-0 bg-red-500 text-white text-xs px-2 py-1">
+          <span className="absolute top-0 right-0 bg-red-600 text-white text-[13px] px-2 py-1">
             ৳{product.discount} OFF
           </span>
         )}
@@ -43,7 +43,7 @@ export const ProductCard = ({ product }) => {
         <Link
           to={`/product/${product?.title}`}
           className="mt-2 text-gray-600 line-clamp-2 hover:text-primary cursor-pointer 
-        transition-all duration-200 tracking-tight font-medium"
+        transition-all duration-200 tracking-tight font-medium  text-sm md:text-base"
         >
           {product.title}
         </Link>

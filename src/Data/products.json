@@ -1,54 +1,54 @@
 [
   {
     "_id": "1",
-    "name": "Men's Casual T-Shirt",
+    "name": "Comfortable-Cotton-T-Shirt-For-Everyday-Wear",
     "image": "/assets/products/tshirt.jpg",
-    "title": "Comfortable cotton T-shirt for everyday wear",
+    "title": "Comfortable Cotton T-Shirt For Everyday Wear",
     "price": 1200,
     "discount": 150,
     "rating": 5
   },
   {
     "_id": "2",
-    "name": "Unisex Cotton Hoodie",
+    "name": "Soft-And-Warm-Hoodie-Perfect-For-All-Seasons",
     "image": "/assets/products/hoodie.jpg",
-    "title": "Soft and warm hoodie perfect for all seasons",
+    "title": "Soft And Warm Hoodie Perfect For All Seasons",
     "price": 2500,
     "discount": 300,
     "rating": 4
   },
   {
     "_id": "3",
-    "name": "Stylish Leather Watch",
+    "name": "Elegant-Leather-Strap-Watch-For-A-Classy-Look",
     "image": "/assets/products/watch.jpg",
-    "title": "Elegant leather strap watch for a classy look",
+    "title": "Elegant Leather Strap Watch For A Classy Look",
     "price": 3200,
     "discount": 500,
     "rating": 4.8
   },
   {
     "_id": "4",
-    "name": "Running Sneakers",
+    "name": "Lightweight-And-Breathable-Sneakers-For-Running",
     "image": "/assets/products/sneakers.jpg",
-    "title": "Lightweight and breathable sneakers for running",
+    "title": "Lightweight And Breathable Sneakers For Running",
     "price": 4500,
     "discount": 700,
     "rating": 4
   },
   {
     "_id": "5",
-    "name": "Polarized Sunglasses",
+    "name": "UV-Protected-Stylish-Sunglasses-For-All-Occasions",
     "image": "/assets/products/sunglasses.jpg",
-    "title": "UV-protected stylish sunglasses for all occasions",
+    "title": "UV-Protected Stylish Sunglasses For All Occasions",
     "price": 1800,
     "discount": 250,
     "rating": 4
   },
   {
     "_id": "6",
-    "name": "Waterproof Backpack",
+    "name": "Durable-Backpack-With-Multiple-Compartments",
     "image": "/assets/products/backpack.jpg",
-    "title": "Durable backpack with multiple compartments",
+    "title": "Durable Backpack With Multiple Compartments",
     "price": 3800,
     "discount": 600,
     "rating": 4.9

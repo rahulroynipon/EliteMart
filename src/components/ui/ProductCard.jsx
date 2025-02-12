@@ -39,14 +39,14 @@ export const ProductCard = ({ product }) => {
             ৳{discountedPrice}
           </span>
           {product.discount > 0 && (
-            <span className="text-sm line-through text-gray-500">
+            <span className="text-sm line-through text-red-500">
               ৳{product.price}
             </span>
           )}
         </p>
 
         <Link
-          to={`/product/${product?.title}`}
+          to={`/product/${product.name}`}
           className="mt-2 text-gray-600 line-clamp-2 hover:text-primary cursor-pointer 
         transition-all duration-200 tracking-tight font-medium  text-sm md:text-base"
         >

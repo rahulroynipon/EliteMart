@@ -3,16 +3,17 @@ import products from "../Data/products.json";
 import ProductSection from "../components/global/ProductSection";
 import ProductSEO from "../components/products/ProductSEO";
 import ProductSpecification from "../components/products/ProductSpecification";
+import ProductView from "../components/products/ProductView";
 
 const Product = () => {
   return (
     <>
       <ProductSEO />
-      <h1 className="text-red-500">Product</h1>
 
-      <main className="flex flex-col gap-16">
+      <main className="flex flex-col gap-16 mt-14">
+        <ProductView />
+        {/* Product Specification section */}
         <ProductSpecification />
-
         {/*  Similar Category Best section*/}
         <ProductSection
           title="Similar Category Best"

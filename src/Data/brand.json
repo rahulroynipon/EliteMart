@@ -1,0 +1,37 @@
+[
+  {
+    "_id": "1",
+    "name": "Nike",
+    "image": "/assets/brands/nike.png"
+  },
+  {
+    "_id": "2",
+    "name": "Adidas",
+    "image": "/assets/brands/adidas.png"
+  },
+  {
+    "_id": "3",
+    "name": "Puma",
+    "image": "/assets/brands/puma.png"
+  },
+  {
+    "_id": "4",
+    "name": "Reebok",
+    "image": "/assets/brands/reebok.png"
+  },
+  {
+    "_id": "5",
+    "name": "Under Armour",
+    "image": "/assets/brands/under_armour.png"
+  },
+  {
+    "_id": "6",
+    "name": "New Balance",
+    "image": "/assets/brands/new_balance.png"
+  },
+  {
+    "_id": "7",
+    "name": "Non Brand",
+    "image": "/assets/brands/new_balance.png"
+  }
+]

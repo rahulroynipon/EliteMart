@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "1",
+    "name": "Men's Casual T-Shirt",
+    "image": "/assets/products/tshirt.jpg",
+    "title": "Comfortable cotton T-shirt for everyday wear",
+    "price": 1200,
+    "discount": 150,
+    "rating": 5
+  },
+  {
+    "_id": "2",
+    "name": "Unisex Cotton Hoodie",
+    "image": "/assets/products/hoodie.jpg",
+    "title": "Soft and warm hoodie perfect for all seasons",
+    "price": 2500,
+    "discount": 300,
+    "rating": 4
+  },
+  {
+    "_id": "3",
+    "name": "Stylish Leather Watch",
+    "image": "/assets/products/watch.jpg",
+    "title": "Elegant leather strap watch for a classy look",
+    "price": 3200,
+    "discount": 500,
+    "rating": 4.8
+  },
+  {
+    "_id": "4",
+    "name": "Running Sneakers",
+    "image": "/assets/products/sneakers.jpg",
+    "title": "Lightweight and breathable sneakers for running",
+    "price": 4500,
+    "discount": 700,
+    "rating": 4
+  },
+  {
+    "_id": "5",
+    "name": "Polarized Sunglasses",
+    "image": "/assets/products/sunglasses.jpg",
+    "title": "UV-protected stylish sunglasses for all occasions",
+    "price": 1800,
+    "discount": 250,
+    "rating": 4
+  },
+  {
+    "_id": "6",
+    "name": "Waterproof Backpack",
+    "image": "/assets/products/backpack.jpg",
+    "title": "Durable backpack with multiple compartments",
+    "price": 3800,
+    "discount": 600,
+    "rating": 4.9
+  }
+]

@@ -12,7 +12,7 @@ const TopSection = () => {
 
   return (
     <section className="flex items-center justify-center">
-      <div className="w-full max-w-7xl grid grid-cols-3 md:grid-cols-7 gap-2 px-5 items-center">
+      <div className="w-full max-w-7xl grid grid-cols-3 md:grid-cols-7 gap-1 md:gap-0 px-5 items-center">
         {filteredCategories.map((item) => (
           <CategoryCard key={item?._id} category={item} />
         ))}

@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "1",
+    "title": "Return & Refund Policy",
+    "link": "/return-refund-policy"
+  },
+  {
+    "_id": "2",
+    "title": "Support & Policy",
+    "link": "/support-policy"
+  },
+  {
+    "_id": "3",
+    "title": "Terms & Condition",
+    "link": "/terms-condition"
+  },
+  {
+    "_id": "4",
+    "title": "Privacy & Policy",
+    "link": "/privacy-policy"
+  },
+  {
+    "_id": "5",
+    "title": "Free Landing Page Creation",
+    "link": "/free-landing-page"
+  },
+  {
+    "_id": "6",
+    "title": "Account Deletion",
+    "link": "/account-deletion"
+  }
+]

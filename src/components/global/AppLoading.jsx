@@ -17,7 +17,7 @@ const AppLoading = () => {
   ];
 
   return (
-    <div className="absolute inset-0 w-full h-full min-h-screen max-h-screen bg-light-gray/30 backdrop-blur flex items-center justify-center">
+    <div className="fixed z-50 inset-0 w-full h-full min-h-screen max-h-screen bg-light-gray/30 backdrop-blur flex items-center justify-center">
       <div className="flex flex-col items-center space-y-4">
         <motion.div
           initial={{ opacity: 0, y: -20, scale: 0.8 }}

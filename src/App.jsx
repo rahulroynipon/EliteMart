@@ -6,6 +6,7 @@ import AppLoading from "./components/global/AppLoading";
 
 const Home = lazy(() => import("./pages/Home"));
 const Product = lazy(() => import("./pages/Product"));
+const NotFound = lazy(() => import("./pages/NotFound"));
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -28,6 +29,7 @@ function App() {
               <Route index element={<Home />} />
               <Route path="product/:id" element={<Product />} />
             </Route>
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>
       </BrowserRouter>

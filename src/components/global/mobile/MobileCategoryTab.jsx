@@ -33,8 +33,10 @@ export const MobileCategoryTab = () => {
               <li key={categoryType._id}>
                 <button
                   onClick={() => handleCategoryClick(categoryType._id)}
-                  className={`text-sm md:text-base pb-1 w-[7rem]  transition-colors flex flex-col items-center justify-center ${
-                    selectedCategory === categoryType._id ? "bg-primary/15" : ""
+                  className={`text-xs md:text-sm pb-1 w-[7rem] transition-colors flex flex-col items-center justify-center ${
+                    selectedCategory === categoryType._id
+                      ? "bg-primary text-white font-medium"
+                      : ""
                   }`}
                 >
                   <span>
@@ -44,9 +46,7 @@ export const MobileCategoryTab = () => {
                       alt={categoryType.label}
                     />
                   </span>
-                  <span className="font-medium text-gray-600">
-                    {categoryType.label}
-                  </span>
+                  <span>{categoryType.label}</span>
                 </button>
               </li>
             );
@@ -62,7 +62,7 @@ export const MobileCategoryTab = () => {
               categoryType?.categories?.map((category) => (
                 <li
                   key={category._id}
-                  className="text-gray-700 border-b py-3 border-gray-300 font-medium"
+                  className="text-gray-700 border-b py-2 text-sm border-gray-300"
                 >
                   {category.label}
                 </li>
@@ -80,7 +80,7 @@ export const MobileCategoryTab = () => {
                     category?.subCategories &&
                     handleSubCategoryClick(category._id)
                   }
-                  className="flex justify-between items-center w-full text-left text-gray-700 font-medium py-3"
+                  className="flex justify-between items-center w-full text-left text-gray-700 text-sm py-2"
                 >
                   <span>{category.label}</span>
                   {category?.subCategories && (
@@ -98,7 +98,7 @@ export const MobileCategoryTab = () => {
                     {category?.subCategories.map((subCategory) => (
                       <li
                         key={subCategory._id}
-                        className="text-gray-600 font-normal py-1"
+                        className="text-gray-600 text-sm py-1"
                       >
                         {subCategory.label}
                       </li>

@@ -11,11 +11,11 @@ export const MobileNavItem = () => {
             <NavLink
               to={item.link}
               className={({ isActive }) =>
-                `block font-medium px-5 py-4 transition-all duration-300 
+                `block px-5 py-2 transition-all duration-300 
                  ${
                    isActive
-                     ? "bg-primary text-white shadow-md"
-                     : "text-gray-700 hover:bg-gray-100"
+                     ? "bg-primary/90 text-white shadow-md font-medium"
+                     : "text-gray-700 hover:bg-gray-100 text-sm"
                  }`
               }
             >

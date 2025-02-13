@@ -13,10 +13,11 @@ const ProductView = () => {
 
         {isMobile ? null : (
           <div className="w-1/2 space-y-1">
-            <RelatedProductCard />
-            <RelatedProductCard />
-            <RelatedProductCard />
-            <RelatedProductCard />
+            {Array(4)
+              .fill(null)
+              .map((_, index) => (
+                <RelatedProductCard key={index} />
+              ))}
           </div>
         )}
       </section>

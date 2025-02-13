@@ -1,0 +1,27 @@
+[
+  {
+    "_id": "home",
+    "label": "Home",
+    "link": "/"
+  },
+  {
+    "_id": "all-products",
+    "label": "All Products",
+    "link": "/products"
+  },
+  {
+    "_id": "updates",
+    "label": "Updates",
+    "link": "/updates"
+  },
+  {
+    "_id": "order-track",
+    "label": "Order Track",
+    "link": "/order-track"
+  },
+  {
+    "_id": "contact-us",
+    "label": "Contact Us",
+    "link": "/contact-us"
+  }
+]

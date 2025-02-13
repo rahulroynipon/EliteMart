@@ -51,7 +51,7 @@ const ProductMainView = ({ product }) => {
   ];
 
   return (
-    <div className="w-full bg-white border border-gray-300 flex flex-col lg:flex-row shadow-sm overflow-hidden p-4 md:p-6 lg:p-8 space-y-5 lg:space-y-0 lg:space-x-5">
+    <div className="z-0 w-full bg-white border border-gray-300 flex flex-col lg:flex-row shadow-sm overflow-hidden p-4 md:p-6 lg:p-8 space-y-5 lg:space-y-0 lg:space-x-5">
       {/* Image Section */}
       <div className="w-full flex flex-col space-y-3">
         <div className="max-h-[25rem] w-full border border-gray-300 flex items-center justify-center overflow-hidden">

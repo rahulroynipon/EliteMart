@@ -17,7 +17,7 @@ const navItems = [
 
 const MobileNavbar = () => {
   return (
-    <nav className="w-full bg-white fixed bottom-0 z-40 px-8 md:px-20 shadow-lg border-t border-gray-200">
+    <nav className="w-full bg-white fixed bottom-0 z-30 px-8 md:px-20 shadow-lg border-t border-gray-200">
       <ul className="flex justify-between items-center w-full py-4">
         {navItems.map(({ _id, label, icon, link }) => (
           <li key={_id}>

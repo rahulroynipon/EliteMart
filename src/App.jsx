@@ -4,6 +4,7 @@ import React, { Suspense, lazy, useEffect, useState } from "react";
 import Layout from "./components/layout/Layout";
 import AppLoading from "./components/global/AppLoading";
 import PageLoading from "./components/global/PageLoading";
+import ScrollToTop from "./components/global/ScrollToTop";
 
 const Home = lazy(() => import("./pages/Home"));
 const Product = lazy(() => import("./pages/Product"));
@@ -25,17 +26,20 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
-      <Suspense fallback={<PageLoading />}>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="product/:id" element={<Product />} />
-          </Route>
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </Suspense>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <ScrollToTop />
+        <Suspense fallback={<PageLoading />}>
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route index element={<Home />} />
+              <Route path="product/:id" element={<Product />} />
+            </Route>
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </Suspense>
+      </BrowserRouter>
+    </>
   );
 }
 

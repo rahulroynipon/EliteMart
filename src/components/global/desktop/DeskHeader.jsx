@@ -1,10 +1,10 @@
-import Container from "./Container";
-import Logo from "../../assets/logo.png";
+import Container from "../Container";
+import Logo from "../../../assets/logo.png";
 import { BsCart3 } from "react-icons/bs";
 import { GiSelfLove } from "react-icons/gi";
 import { IoSearch } from "react-icons/io5";
 import { useEffect, useState } from "react";
-import cn from "../../utils/cn";
+import cn from "../../../utils/cn";
 
 const DeskHeader = () => {
   const [isSticky, setIsSticky] = useState(false);

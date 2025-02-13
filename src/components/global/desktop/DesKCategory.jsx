@@ -1,5 +1,5 @@
 import { useState } from "react";
-import categoryList from "../../Data/category.json";
+import categoryList from "../../../Data/category.json";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 
 const images = import.meta.glob("/src/assets/category/*.{png,jpg}", {
@@ -11,7 +11,7 @@ export const DeskCategory = () => {
   const [activeCategory, setActiveCategory] = useState(null);
 
   return (
-    <div className="relative">
+    <div className="relative z-30 bg-white shadow-md ">
       <ul onMouseLeave={() => setActiveType(null)}>
         {categoryList.map((type, index) => {
           const imageSrc =
@@ -20,7 +20,7 @@ export const DeskCategory = () => {
           return (
             <li
               key={type._id}
-              className="relative flex items-center justify-between py-2 px-6 cursor-pointer hover:bg-gray-100"
+              className="relative flex items-center justify-between py-2 px-6 cursor-pointer hover:bg-gray-100 w-[20rem]"
               onMouseEnter={() => setActiveType(type._id)}
             >
               <div className="flex items-center space-x-4">
@@ -48,7 +48,7 @@ export const DeskCategory = () => {
                       className="relative px-4 py-2 cursor-pointer hover:bg-gray-100"
                       onMouseEnter={() => setActiveCategory(category._id)}
                     >
-                      <div className="flex items-center justify-between">
+                      <div className="flex items-center text-gray-600 justify-between">
                         {category.label}
                         {category.subCategories && (
                           <MdOutlineArrowForwardIos className="text-gray-600" />

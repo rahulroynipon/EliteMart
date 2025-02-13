@@ -13,7 +13,7 @@ export const RelatedProductCard = () => {
   };
 
   return (
-    <div className="h-30 border-y border-gray/20  flex space-x-3">
+    <div className="h-30 border-y border-gray/20  flex space-x-3  bg-white">
       <div className="h-full w-28 shrink-0 bg-gray-200 overflow-hidden ">
         {/* <img
           src={product.image}

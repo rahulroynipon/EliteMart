@@ -10,7 +10,7 @@ const Product = () => {
     <>
       <ProductSEO />
 
-      <main className="flex flex-col gap-16 mt-14">
+      <main className="flex flex-col gap-16 mt-5 md:mt-14">
         <ProductView />
         {/* Product Specification section */}
         <ProductSpecification />

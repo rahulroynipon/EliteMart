@@ -1,0 +1,1055 @@
+[
+  {
+    "_id": "1",
+    "name": "Comfortable Cotton T-Shirt for Everyday Casual Wear and Outings",
+    "images": ["image1.webp", "image2.webp", "image3.webp"],
+    "title": "Comfortable Cotton T-Shirt for Everyday Casual Wear and Outings",
+    "price": 1200,
+    "discount": 150,
+    "brand": "lacoste",
+    "rating": 4.5,
+    "numOrders": 100,
+    "instock": 100,
+    "description": "This is a comfortable cotton t-shirt for everyday wear. It is made of 100% cotton and is very comfortable to wear. It is available in different sizes and colors. It is perfect for casual wear and can be worn with jeans or shorts. It is machine washable and easy to care for. It is a great addition to your wardrobe and is perfect for everyday wear.",
+    "keyfeatures": [
+      "100% cotton",
+      "Comfortable to wear",
+      "Available in different sizes and colors",
+      "Perfect for casual wear",
+      "Machine washable"
+    ],
+    "reviews": [
+      {
+        "name": "John Doe",
+        "rating": 5,
+        "comment": "This t-shirt is very comfortable and fits perfectly. I love the color and the material. It is perfect for everyday wear."
+      },
+      {
+        "name": "Jane Doe",
+        "rating": 4,
+        "comment": "I really like this t-shirt. It is very comfortable and the color is nice. It is perfect for casual wear."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "men",
+      "categoryId": "men-top-wear",
+      "subCategoryId": "t-shirt"
+    },
+    "createdAt": "2023-09-28T13:10:00Z"
+  },
+  {
+    "_id": "2",
+    "name": "Elegant Salwar Kameez for Women with Hand-Embroidered Design",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Elegant Salwar Kameez for Women with Hand-Embroidered Design",
+    "price": 2500,
+    "discount": 300,
+    "brand": "ethnic-wear",
+    "rating": 4.7,
+    "numOrders": 75,
+    "instock": 50,
+    "description": "An elegant salwar kameez for women, perfect for festive occasions.",
+    "keyfeatures": [
+      "Pure cotton fabric",
+      "Hand-embroidered design",
+      "Available in multiple colors"
+    ],
+    "reviews": [
+      {
+        "name": "Alice",
+        "rating": 5,
+        "comment": "Beautiful design and very comfortable."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "women",
+      "categoryId": "women-fashion-wear",
+      "subCategoryId": "salwar-kameez",
+      "createdAt": "2024-09-28T13:10:00Z"
+    }
+  },
+  {
+    "_id": "3",
+    "name": "Long-Lasting Floral Perfume for Women with Elegant Packaging",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Long-Lasting Floral Perfume for Women with Elegant Packaging",
+    "price": 1800,
+    "discount": 0,
+    "brand": "luxury-scents",
+    "rating": 4.8,
+    "numOrders": 120,
+    "instock": 80,
+    "description": "A long-lasting floral perfume for women.",
+    "keyfeatures": [
+      "Long-lasting fragrance",
+      "Elegant packaging",
+      "Perfect for daily use"
+    ],
+    "reviews": [
+      {
+        "name": "Emma",
+        "rating": 5,
+        "comment": "Love the fragrance! It lasts all day."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "beauty",
+      "categoryId": "fragrances",
+      "subCategoryId": "perfumes"
+    },
+    "createdAt": "2023-10-28T13:10:00Z"
+  },
+  {
+    "_id": "4",
+    "name": "Stylish and Comfortable Denim Jeans for Men with Slim Fit",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Stylish and Comfortable Denim Jeans for Men with Slim Fit",
+    "price": 2200,
+    "discount": 0,
+    "brand": "levis",
+    "rating": 4.6,
+    "numOrders": 90,
+    "instock": 60,
+    "description": "Stylish and comfortable denim jeans for men.",
+    "keyfeatures": [
+      "100% cotton denim",
+      "Slim fit",
+      "Available in multiple sizes"
+    ],
+    "reviews": [
+      {
+        "name": "Mike",
+        "rating": 4,
+        "comment": "Great fit and comfortable to wear."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "men",
+      "categoryId": "men-bottom-wear",
+      "subCategoryId": "denim-pant"
+    },
+    "createdAt": "2023-11-28T13:10:00Z"
+  },
+  {
+    "_id": "5",
+    "name": "Beautiful Silk Saree for Women with Handwoven Design",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Beautiful Silk Saree for Women with Handwoven Design",
+    "price": 3500,
+    "discount": 0,
+    "brand": "ethnic-wear",
+    "rating": 4.9,
+    "numOrders": 110,
+    "instock": 40,
+    "description": "A beautiful silk saree for special occasions.",
+    "keyfeatures": [
+      "Pure silk fabric",
+      "Handwoven design",
+      "Elegant and timeless"
+    ],
+    "reviews": [
+      {
+        "name": "Priya",
+        "rating": 5,
+        "comment": "Absolutely stunning saree! Perfect for weddings."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "women",
+      "categoryId": "women-fashion-wear",
+      "subCategoryId": "saree"
+    },
+    "createdAt": "2024-11-28T13:10:00Z"
+  },
+  {
+    "_id": "6",
+    "name": "Anti-Ageing Cream for Women with Wrinkle Reduction Formula",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Anti-Ageing Cream for Women with Wrinkle Reduction Formula",
+    "price": 1500,
+    "discount": 100,
+    "brand": "olay",
+    "rating": 4.7,
+    "numOrders": 200,
+    "instock": 150,
+    "description": "An anti-ageing cream that reduces wrinkles and fine lines.",
+    "keyfeatures": [
+      "Reduces wrinkles",
+      "Hydrates skin",
+      "Dermatologically tested"
+    ],
+    "reviews": [
+      {
+        "name": "Sarah",
+        "rating": 5,
+        "comment": "My skin feels so much smoother after using this cream."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "beauty",
+      "categoryId": "skincare",
+      "subCategoryId": "anti-ageing"
+    },
+    "createdAt": "2022-09-28T13:10:00Z"
+  },
+  {
+    "_id": "7",
+    "name": "Casual Shirt for Boys with Comfortable Fabric and Easy Wash",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Casual Shirt for Boys with Comfortable Fabric and Easy Wash",
+    "price": 800,
+    "discount": 50,
+    "brand": "kids-fashion",
+    "rating": 4.3,
+    "numOrders": 60,
+    "instock": 70,
+    "description": "A casual shirt for boys, perfect for school and outings.",
+    "keyfeatures": [
+      "Comfortable fabric",
+      "Available in multiple colors",
+      "Easy to wash"
+    ],
+    "reviews": [
+      {
+        "name": "Rahul",
+        "rating": 4,
+        "comment": "My son loves this shirt. It's very comfortable."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "kids",
+      "categoryId": "boys-clothing",
+      "subCategoryId": "shirt"
+    },
+    "createdAt": "2023-10-28T13:10:00Z"
+  },
+  {
+    "_id": "8",
+    "name": "Stylish Home Decor Cushion with Soft and Durable Fabric",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Stylish Home Decor Cushion with Soft and Durable Fabric",
+    "price": 600,
+    "discount": 50,
+    "brand": "home-luxury",
+    "rating": 4.4,
+    "numOrders": 80,
+    "instock": 100,
+    "description": "A stylish cushion for your living room or bedroom.",
+    "keyfeatures": [
+      "Soft and durable fabric",
+      "Elegant design",
+      "Machine washable"
+    ],
+    "reviews": [
+      {
+        "name": "Anita",
+        "rating": 4,
+        "comment": "Looks great on my sofa. Very comfortable."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "home-living",
+      "categoryId": "home-decor",
+      "subCategoryId": "cushions"
+    },
+    "createdAt": "2023-09-28T13:20:00Z"
+  },
+  {
+    "_id": "9",
+    "name": "Premium Leather Wallet for Men with Multiple Card Slots",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Premium Leather Wallet for Men with Multiple Card Slots",
+    "price": 1000,
+    "discount": 0,
+    "brand": "gucci",
+    "rating": 4.6,
+    "numOrders": 150,
+    "instock": 80,
+    "description": "A premium leather wallet for men with multiple card slots.",
+    "keyfeatures": [
+      "Genuine leather",
+      "Multiple card slots",
+      "Sleek and stylish design"
+    ],
+    "reviews": [
+      {
+        "name": "David",
+        "rating": 5,
+        "comment": "Excellent quality and very stylish."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "men",
+      "categoryId": "men-accessories",
+      "subCategoryId": "wallet"
+    },
+    "createdAt": "2023-09-20T13:10:00Z"
+  },
+  {
+    "_id": "10",
+    "name": "Lightweight Running Shoes for Women with Cushioned Sole",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Lightweight Running Shoes for Women with Cushioned Sole",
+    "price": 2800,
+    "discount": 300,
+    "brand": "nike",
+    "rating": 4.8,
+    "numOrders": 200,
+    "instock": 120,
+    "description": "Lightweight and comfortable running shoes for women.",
+    "keyfeatures": [
+      "Breathable mesh upper",
+      "Cushioned sole",
+      "Available in multiple colors"
+    ],
+    "reviews": [
+      {
+        "name": "Sophia",
+        "rating": 5,
+        "comment": "Perfect for running and very comfortable."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "women",
+      "categoryId": "women-footwear",
+      "subCategoryId": "sports-shoes"
+    },
+    "createdAt": "2022-09-28T13:10:00Z"
+  },
+  {
+    "_id": "11",
+    "name": "High-Quality Wireless Headphones with Noise Cancellation Feature",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "High-Quality Wireless Headphones with Noise Cancellation Feature",
+    "price": 4500,
+    "discount": 0,
+    "brand": "sony",
+    "rating": 4.7,
+    "numOrders": 200,
+    "instock": 0,
+    "description": "High-quality wireless headphones with noise cancellation.",
+    "keyfeatures": [
+      "Noise cancellation",
+      "Long battery life",
+      "Comfortable fit"
+    ],
+    "reviews": [
+      {
+        "name": "Alex",
+        "rating": 5,
+        "comment": "Great sound quality and very comfortable."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "electronics",
+      "categoryId": "audio",
+      "subCategoryId": "headphones"
+    },
+    "createdAt": "2093-12-28T13:10:00Z"
+  },
+  {
+    "_id": "12",
+    "name": "Elegant Gold-Plated Earrings for Women with Lightweight Design",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Elegant Gold-Plated Earrings for Women with Lightweight Design",
+    "price": 1200,
+    "discount": 100,
+    "brand": "tanishq",
+    "rating": 4.5,
+    "numOrders": 90,
+    "instock": 60,
+    "description": "Elegant gold-plated earrings for women.",
+    "keyfeatures": [
+      "Gold-plated",
+      "Lightweight and comfortable",
+      "Perfect for daily wear"
+    ],
+    "reviews": [
+      {
+        "name": "Riya",
+        "rating": 4,
+        "comment": "Beautiful earrings and very affordable."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "jewellery",
+      "categoryId": "earrings",
+      "subCategoryId": "gold-plated"
+    },
+    "createdAt": "2083-09-28T13:10:00Z"
+  },
+  {
+    "_id": "13",
+    "name": "Formal Shirt for Men with Slim Fit and Cotton Fabric",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Formal Shirt for Men with Slim Fit and Cotton Fabric",
+    "price": 1500,
+    "discount": 200,
+    "brand": "arrow",
+    "rating": 4.6,
+    "numOrders": 120,
+    "instock": 80,
+    "description": "A formal shirt for men, perfect for office wear.",
+    "keyfeatures": ["100% cotton", "Slim fit", "Available in multiple colors"],
+    "reviews": [
+      {
+        "name": "Raj",
+        "rating": 4,
+        "comment": "Great fit and very comfortable."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "men",
+      "categoryId": "men-top-wear",
+      "subCategoryId": "shirt"
+    },
+    "createdAt": "2020-09-28T13:10:00Z"
+  },
+  {
+    "_id": "14",
+    "name": "Stylish Handbag for Women with Premium Leather and Adjustable Strap",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Stylish Handbag for Women with Premium Leather and Adjustable Strap",
+    "price": 2500,
+    "discount": 300,
+    "brand": "gucci",
+    "rating": 4.7,
+    "numOrders": 150,
+    "instock": 100,
+    "description": "A stylish handbag for women, perfect for daily use.",
+    "keyfeatures": [
+      "Premium leather",
+      "Multiple compartments",
+      "Adjustable strap"
+    ],
+    "reviews": [
+      {
+        "name": "Priya",
+        "rating": 5,
+        "comment": "Very stylish and spacious."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "women",
+      "categoryId": "women-bags",
+      "subCategoryId": "handbag"
+    },
+    "createdAt": "2003-09-28T13:10:00Z"
+  },
+  {
+    "_id": "15",
+    "name": "Comfortable Sports Shoes for Kids with Breathable Mesh Upper",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Comfortable Sports Shoes for Kids with Breathable Mesh Upper",
+    "price": 1200,
+    "discount": 100,
+    "brand": "puma",
+    "rating": 4.4,
+    "numOrders": 80,
+    "instock": 60,
+    "description": "Comfortable sports shoes for kids.",
+    "keyfeatures": [
+      "Lightweight and durable",
+      "Breathable mesh",
+      "Available in multiple colors"
+    ],
+    "reviews": [
+      {
+        "name": "Anil",
+        "rating": 4,
+        "comment": "My son loves these shoes. Very comfortable."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "kids",
+      "categoryId": "kids-footwear",
+      "subCategoryId": "sports-shoes"
+    },
+    "createdAt": "2023-02-28T13:10:00Z"
+  },
+  {
+    "_id": "16",
+    "name": "Smart Watch with Fitness Tracking and Heart Rate Monitor",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Smart Watch with Fitness Tracking and Heart Rate Monitor",
+    "price": 5000,
+    "discount": 600,
+    "brand": "samsung",
+    "rating": 4.8,
+    "numOrders": 250,
+    "instock": 150,
+    "description": "A smartwatch with fitness tracking and notifications.",
+    "keyfeatures": [
+      "Fitness tracking",
+      "Heart rate monitor",
+      "Water-resistant"
+    ],
+    "reviews": [
+      {
+        "name": "Rahul",
+        "rating": 5,
+        "comment": "Great features and very accurate."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "electronics",
+      "categoryId": "smart-wearables",
+      "subCategoryId": "smart-watch"
+    },
+    "createdAt": "2023-04-28T13:10:00Z"
+  },
+  {
+    "_id": "17",
+    "name": "Stylish Sunglasses for Women with UV Protection and Trendy Design",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Stylish Sunglasses for Women with UV Protection and Trendy Design",
+    "price": 800,
+    "discount": 100,
+    "brand": "ray-ban",
+    "rating": 4.5,
+    "numOrders": 120,
+    "instock": 90,
+    "description": "Stylish sunglasses for women.",
+    "keyfeatures": [
+      "UV protection",
+      "Lightweight and durable",
+      "Trendy design"
+    ],
+    "reviews": [
+      {
+        "name": "Neha",
+        "rating": 4,
+        "comment": "Very stylish and comfortable."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "women",
+      "categoryId": "women-accessories",
+      "subCategoryId": "sunglasses"
+    },
+    "createdAt": "2023-03-28T13:10:00Z"
+  },
+  {
+    "_id": "18",
+    "name": "Comfortable Running Shoes for Men with Cushioned Sole and Breathable Mesh",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Comfortable Running Shoes for Men with Cushioned Sole and Breathable Mesh",
+    "price": 3000,
+    "discount": 0,
+    "brand": "adidas",
+    "rating": 4.7,
+    "numOrders": 180,
+    "instock": 100,
+    "description": "Comfortable running shoes for men.",
+    "keyfeatures": [
+      "Breathable mesh upper",
+      "Cushioned sole",
+      "Available in multiple colors"
+    ],
+    "reviews": [
+      {
+        "name": "Vikram",
+        "rating": 5,
+        "comment": "Perfect for running and very comfortable."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "men",
+      "categoryId": "men-footwear",
+      "subCategoryId": "sports-shoes"
+    },
+    "createdAt": "2023-09-28T13:30:00Z"
+  },
+  {
+    "_id": "19",
+    "name": "Long-Lasting Matte Lipstick for Women with Multiple Shades",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Long-Lasting Matte Lipstick for Women with Multiple Shades",
+    "price": 500,
+    "discount": 50,
+    "brand": "maybelline",
+    "rating": 4.6,
+    "numOrders": 200,
+    "instock": 150,
+    "description": "Long-lasting lipstick for women.",
+    "keyfeatures": [
+      "Matte finish",
+      "Long-lasting",
+      "Available in multiple shades"
+    ],
+    "reviews": [
+      {
+        "name": "Ananya",
+        "rating": 5,
+        "comment": "Love the color and it lasts all day."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "beauty",
+      "categoryId": "makeup",
+      "subCategoryId": "lipstick"
+    },
+    "createdAt": "2043-09-28T13:10:00Z"
+  },
+  {
+    "_id": "20",
+    "name": "Stylish Belt for Men with Genuine Leather and Adjustable Buckle",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Stylish Belt for Men with Genuine Leather and Adjustable Buckle",
+    "price": 700,
+    "discount": 50,
+    "brand": "allen-solly",
+    "rating": 4.4,
+    "numOrders": 100,
+    "instock": 80,
+    "description": "A stylish belt for men.",
+    "keyfeatures": [
+      "Genuine leather",
+      "Adjustable buckle",
+      "Available in multiple colors"
+    ],
+    "reviews": [
+      {
+        "name": "Rohit",
+        "rating": 4,
+        "comment": "Good quality and very stylish."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "men",
+      "categoryId": "men-accessories",
+      "subCategoryId": "belt"
+    },
+    "createdAt": "2123-09-28T13:10:00Z"
+  },
+  {
+    "_id": "21",
+    "name": "Elegant Earrings for Women with Gold-Plated Design and Lightweight Feel",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Elegant Earrings for Women with Gold-Plated Design and Lightweight Feel",
+    "price": 600,
+    "discount": 50,
+    "brand": "tanishq",
+    "rating": 4.5,
+    "numOrders": 90,
+    "instock": 70,
+    "description": "Elegant earrings for women.",
+    "keyfeatures": [
+      "Gold-plated",
+      "Lightweight and comfortable",
+      "Perfect for daily wear"
+    ],
+    "reviews": [
+      {
+        "name": "Riya",
+        "rating": 4,
+        "comment": "Beautiful earrings and very affordable."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "jewellery",
+      "categoryId": "earrings",
+      "subCategoryId": "gold-plated"
+    },
+    "createdAt": "2023-09-18T13:10:00Z"
+  },
+  {
+    "_id": "22",
+    "name": "Premium Leather Wallet for Men with Multiple Card Slots and Stylish Design",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Premium Leather Wallet for Men with Multiple Card Slots and Stylish Design",
+    "price": 1000,
+    "discount": 100,
+    "brand": "gucci",
+    "rating": 4.6,
+    "numOrders": 150,
+    "instock": 80,
+    "description": "A premium leather wallet for men with multiple card slots.",
+    "keyfeatures": [
+      "Genuine leather",
+      "Multiple card slots",
+      "Sleek and stylish design"
+    ],
+    "reviews": [
+      {
+        "name": "David",
+        "rating": 5,
+        "comment": "Excellent quality and very stylish."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "men",
+      "categoryId": "men-accessories",
+      "subCategoryId": "wallet"
+    },
+    "createdAt": "2021-09-28T13:10:00Z"
+  },
+  {
+    "_id": "23",
+    "name": "Comfortable Sandals for Women with Adjustable Straps and Durable Sole",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Comfortable Sandals for Women with Adjustable Straps and Durable Sole",
+    "price": 1500,
+    "discount": 0,
+    "brand": "hush-puppies",
+    "rating": 4.7,
+    "numOrders": 120,
+    "instock": 90,
+    "description": "Comfortable sandals for women.",
+    "keyfeatures": [
+      "Soft and durable sole",
+      "Adjustable straps",
+      "Available in multiple colors"
+    ],
+    "reviews": [
+      {
+        "name": "Anjali",
+        "rating": 5,
+        "comment": "Very comfortable and stylish."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "women",
+      "categoryId": "women-footwear",
+      "subCategoryId": "sandals"
+    },
+    "createdAt": "2073-01-20T13:10:00Z"
+  },
+  {
+    "_id": "24",
+    "name": "Formal Trousers for Men with Slim Fit and Cotton Fabric",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Formal Trousers for Men with Slim Fit and Cotton Fabric",
+    "price": 1800,
+    "discount": 200,
+    "brand": "peter-england",
+    "rating": 4.5,
+    "numOrders": 100,
+    "instock": 70,
+    "description": "Formal trousers for men.",
+    "keyfeatures": ["100% cotton", "Slim fit", "Available in multiple colors"],
+    "reviews": [
+      {
+        "name": "Rajesh",
+        "rating": 4,
+        "comment": "Great fit and very comfortable."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "men",
+      "categoryId": "men-bottom-wear",
+      "subCategoryId": "trousers"
+    },
+    "createdAt": "2020-09-28T13:10:00Z"
+  },
+  {
+    "_id": "25",
+    "name": "Elegant Necklace for Women with Gold-Plated Design and Lightweight Feel",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Elegant Necklace for Women with Gold-Plated Design and Lightweight Feel",
+    "price": 2000,
+    "discount": 300,
+    "brand": "tanishq",
+    "rating": 4.6,
+    "numOrders": 110,
+    "instock": 60,
+    "description": "Elegant necklace for women.",
+    "keyfeatures": [
+      "Gold-plated",
+      "Lightweight and comfortable",
+      "Perfect for special occasions"
+    ],
+    "reviews": [
+      {
+        "name": "Riya",
+        "rating": 5,
+        "comment": "Beautiful necklace and very affordable."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "jewellery",
+      "categoryId": "necklace",
+      "subCategoryId": "gold-plated"
+    },
+    "createdAt": "2003-01-28T13:10:00Z"
+  },
+  {
+    "_id": "26",
+    "name": "Comfortable Sweatshirt for Men with Slim Fit and Cotton Fabric",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Comfortable Sweatshirt for Men with Slim Fit and Cotton Fabric",
+    "price": 1500,
+    "discount": 200,
+    "brand": "nike",
+    "rating": 4.6,
+    "numOrders": 120,
+    "instock": 80,
+    "description": "A comfortable sweatshirt for men.",
+    "keyfeatures": ["100% cotton", "Slim fit", "Available in multiple colors"],
+    "reviews": [
+      {
+        "name": "Rahul",
+        "rating": 4,
+        "comment": "Great fit and very comfortable."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "men",
+      "categoryId": "men-top-wear",
+      "subCategoryId": "sweatshirts"
+    },
+    "createdAt": "2021-11-28T13:10:00Z"
+  },
+  {
+    "_id": "27",
+    "name": "Stylish Kurti for Women with Hand-Embroidered Design and Cotton Fabric",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Stylish Kurti for Women with Hand-Embroidered Design and Cotton Fabric",
+    "price": 1200,
+    "discount": 150,
+    "brand": "w-for-women",
+    "rating": 4.5,
+    "numOrders": 100,
+    "instock": 70,
+    "description": "A stylish kurti for women.",
+    "keyfeatures": [
+      "Pure cotton fabric",
+      "Hand-embroidered design",
+      "Available in multiple colors"
+    ],
+    "reviews": [
+      {
+        "name": "Anjali",
+        "rating": 5,
+        "comment": "Very comfortable and stylish."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "women",
+      "categoryId": "women-fashion-wear",
+      "subCategoryId": "kurti"
+    },
+    "createdAt": "2020-09-28T23:10:00Z"
+  },
+  {
+    "_id": "28",
+    "name": "Stylish Formal Shoes for Men with Genuine Leather and Comfortable Sole",
+    "images": ["image1.webp", "image2.webp"],
+    "title": "Stylish Formal Shoes for Men with Genuine Leather and Comfortable Sole",
+    "price": 2500,
+    "discount": 300,
+    "brand": "woodland",
+    "rating": 4.7,
+    "numOrders": 150,
+    "instock": 100,
+    "description": "Stylish formal shoes for men.",
+    "keyfeatures": [
+      "Genuine leather",
+      "Comfortable sole",
+      "Available in multiple colors"
+    ],
+    "reviews": [
+      {
+        "name": "Vikram",
+        "rating": 5,
+        "comment": "Great quality and very comfortable."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "men",
+      "categoryId": "men-footwear",
+      "subCategoryId": "formal-shoes"
+    },
+    "createdAt": "2020-11-28T13:10:00Z"
+  },
+  {
+    "_id": "29",
+    "name": "Long-Lasting Matte Lipstick for Women with Multiple Shades",
+    "images": ["lipstick1.webp", "lipstick2.webp", "lipstick3.webp"],
+    "title": "Long-Lasting Matte Lipstick for Women with Multiple Shades",
+    "price": 500,
+    "discount": 0,
+    "brand": "maybelline",
+    "rating": 4.6,
+    "numOrders": 200,
+    "instock": 150,
+    "description": "A long-lasting matte lipstick that provides a bold and vibrant look. Available in multiple shades to suit every skin tone.",
+    "keyfeatures": [
+      "Matte finish",
+      "Long-lasting",
+      "Available in multiple shades",
+      "Creamy texture",
+      "Non-drying formula"
+    ],
+    "reviews": [
+      {
+        "name": "Ananya",
+        "rating": 5,
+        "comment": "Love the color and it lasts all day."
+      },
+      {
+        "name": "Priya",
+        "rating": 4,
+        "comment": "Great quality and very affordable."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "beauty",
+      "categoryId": "makeup",
+      "subCategoryId": "lipstick"
+    },
+    "createdAt": "1990-01-28T13:10:00Z"
+  },
+  {
+    "_id": "30",
+    "name": "Anti-Ageing Cream for Women with Wrinkle Reduction Formula",
+    "images": ["cream1.webp", "cream2.webp", "cream3.webp"],
+    "title": "Anti-Ageing Cream for Women with Wrinkle Reduction Formula",
+    "price": 1500,
+    "discount": 100,
+    "brand": "olay",
+    "rating": 4.7,
+    "numOrders": 200,
+    "instock": 150,
+    "description": "An anti-ageing cream that reduces wrinkles and fine lines, leaving your skin smooth and youthful.",
+    "keyfeatures": [
+      "Reduces wrinkles",
+      "Hydrates skin",
+      "Dermatologically tested",
+      "Non-greasy formula",
+      "Suitable for all skin types"
+    ],
+    "reviews": [
+      {
+        "name": "Sarah",
+        "rating": 5,
+        "comment": "My skin feels so much smoother after using this cream."
+      },
+      {
+        "name": "Riya",
+        "rating": 4,
+        "comment": "Great product for anti-ageing."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "beauty",
+      "categoryId": "skincare",
+      "subCategoryId": "anti-ageing"
+    },
+    "createdAt": "2021-09-26T13:10:00Z"
+  },
+  {
+    "_id": "31",
+    "name": "Hair Repair Shampoo for Damaged Hair with Argan Oil",
+    "images": ["shampoo1.webp", "shampoo2.webp", "shampoo3.webp"],
+    "title": "Hair Repair Shampoo for Damaged Hair with Argan Oil",
+    "price": 800,
+    "discount": 50,
+    "brand": "loreal",
+    "rating": 4.5,
+    "numOrders": 150,
+    "instock": 100,
+    "description": "A hair repair shampoo enriched with argan oil to nourish and repair damaged hair, leaving it soft and shiny.",
+    "keyfeatures": [
+      "Enriched with argan oil",
+      "Repairs damaged hair",
+      "Adds shine and softness",
+      "Suitable for all hair types",
+      "Paraben-free"
+    ],
+    "reviews": [
+      {
+        "name": "Neha",
+        "rating": 5,
+        "comment": "My hair feels so much healthier after using this shampoo."
+      },
+      {
+        "name": "Anjali",
+        "rating": 4,
+        "comment": "Great product for damaged hair."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "beauty",
+      "categoryId": "haircare",
+      "subCategoryId": "shampoo"
+    },
+    "createdAt": "2013-01-28T13:10:00Z"
+  },
+  {
+    "_id": "32",
+    "name": "Floral Perfume for Women with Long-Lasting Fragrance",
+    "images": ["perfume1.webp", "perfume2.webp", "perfume3.webp"],
+    "title": "Floral Perfume for Women with Long-Lasting Fragrance",
+    "price": 1800,
+    "discount": 200,
+    "brand": "luxury-scents",
+    "rating": 4.8,
+    "numOrders": 120,
+    "instock": 80,
+    "description": "A long-lasting floral perfume for women with a refreshing and elegant fragrance.",
+    "keyfeatures": [
+      "Long-lasting fragrance",
+      "Elegant packaging",
+      "Perfect for daily use",
+      "Floral notes",
+      "Refreshing scent"
+    ],
+    "reviews": [
+      {
+        "name": "Emma",
+        "rating": 5,
+        "comment": "Love the fragrance! It lasts all day."
+      },
+      {
+        "name": "Sophia",
+        "rating": 4,
+        "comment": "Great perfume for special occasions."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "beauty",
+      "categoryId": "fragrances",
+      "subCategoryId": "perfumes"
+    },
+    "createdAt": "2050-09-28T13:10:10Z"
+  },
+  {
+    "_id": "34",
+    "name": "Men's Grooming Kit with Trimmer, Shaver, and Accessories",
+    "images": ["grooming1.webp", "grooming2.webp", "grooming3.webp"],
+    "title": "Men's Grooming Kit with Trimmer, Shaver, and Accessories",
+    "price": 2500,
+    "discount": 0,
+    "brand": "philips",
+    "rating": 4.7,
+    "numOrders": 180,
+    "instock": 100,
+    "description": "A complete grooming kit for men, including a trimmer, shaver, and essential accessories for a polished look.",
+    "keyfeatures": [
+      "Includes trimmer and shaver",
+      "Multiple attachments",
+      "Long battery life",
+      "Waterproof design",
+      "Easy to clean"
+    ],
+    "reviews": [
+      {
+        "name": "Vikram",
+        "rating": 5,
+        "comment": "Perfect for daily grooming. Very convenient."
+      },
+      {
+        "name": "Rahul",
+        "rating": 4,
+        "comment": "Great value for money."
+      }
+    ],
+    "category": {
+      "categoryTypeId": "beauty",
+      "categoryId": "mens-grooming",
+      "subCategoryId": "trimmers-groomers-&-shavers"
+    },
+    "createdAt": "2049-09-24T13:10:00Z"
+  }
+]

@@ -12,6 +12,8 @@ const tabs = [
 ];
 
 const ProductSpecification = () => {
+
+  
   const [activeTab, setActiveTab] = useState("summary");
 
   return (

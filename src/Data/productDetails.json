@@ -1,18 +1,37 @@
 {
   "_id": "1",
   "name": "Comfortable-Cotton-T-Shirt-For-Everyday-Wear",
-  "images": [
-    "image1.webp",
-    "image2.webp",
-    "image3.webp",
-    "image4.jpg",
-    "image5.jpg"
-  ],
+
   "title": "Comfortable Cotton T-Shirt For Everyday Wear",
   "price": 1200,
   "discount": 150,
   "brand": "lacoste",
   "rating": 4.5,
   "numOrders": 100,
-  "instock": 100
+  "instock": 100,
+  "description": "This is a comfortable cotton t-shirt for everyday wear. It is made of 100% cotton and is very comfortable to wear. It is available in different sizes and colors. It is perfect for casual wear and can be worn with jeans or shorts. It is machine washable and easy to care for. It is a great addition to your wardrobe and is perfect for everyday wear.",
+  "keyfeatures": [
+    "100% cotton",
+    "Comfortable to wear",
+    "Available in different sizes and colors",
+    "Perfect for casual wear",
+    "Machine washable"
+  ],
+  "reviews": [
+    {
+      "name": "John Doe",
+      "rating": 5,
+      "comment": "This t-shirt is very comfortable and fits perfectly. I love the color and the material. It is perfect for everyday wear."
+    },
+    {
+      "name": "Jane Doe",
+      "rating": 4,
+      "comment": "I really like this t-shirt. It is very comfortable and the color is nice. It is perfect for casual wear."
+    }
+  ],
+  "category": {
+    "categoryTypeId": "",
+    "categoryId": "",
+    "subCategoryId": ""
+  }
 }

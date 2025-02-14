@@ -1,9 +1,9 @@
-import { useEffect, useState } from "react";
+import { useLayoutEffect, useState } from "react";
 
 export default function useIsMobile(breakpoint = 768) {
   const [isMobile, setIsMobile] = useState(false);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const checkIsMobile = () => {
       setIsMobile(window.innerWidth < breakpoint);
     };

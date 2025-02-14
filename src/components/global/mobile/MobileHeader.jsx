@@ -5,11 +5,17 @@ import { IoSearch } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
 import Logo from "../../../assets/logo.png";
 import cn from "../../../utils/cn";
+import { useNavigate } from "react-router";
 
 const MobileHeader = ({ onOpen }) => {
   const [isSticky, setIsSticky] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const navigate = useNavigate();
   const searchRef = useRef(null);
+
+  const goToHome = () => {
+    navigate("/");
+  };
 
   useEffect(() => {
     const handleScroll = () => setIsSticky(window.scrollY > 400);
@@ -40,7 +46,12 @@ const MobileHeader = ({ onOpen }) => {
         <button onClick={onOpen}>
           <AiOutlineMenu size={25} className="cursor-pointer" />
         </button>
-        <img className="h-16 object-contain" src={Logo} alt="Elite Mart Logo" />
+        <img
+          onClick={goToHome}
+          className="h-16 object-contain cursor-pointer"
+          src={Logo}
+          alt="Elite Mart Logo"
+        />
         <div ref={searchRef} className="relative w-7">
           {!isSearchOpen ? (
             <IoSearch

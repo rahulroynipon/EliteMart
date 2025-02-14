@@ -1,4 +1,3 @@
-import products from "../Data/products.json";
 import Brands from "../Data/brand.json";
 
 import HomeSEO from "../components/home/HomeSEO";
@@ -6,8 +5,18 @@ import HeroSection from "../components/home/HeroSection";
 import TopSection from "../components/home/TopSection";
 import ProductSection from "../components/global/ProductSection";
 import BrandSection from "../components/home/BrandSection";
+import useDBStore from "../store/DB";
 
 const Home = () => {
+  const { getProductsByCategoryType, getProductsByRating, getLatestProducts } =
+    useDBStore();
+
+  const bestProducts = getProductsByRating(5, 4, 6);
+  const womenProducts = getProductsByCategoryType("women", 6);
+  const menProducts = getProductsByCategoryType("men", 6);
+  const beautyProducts = getProductsByCategoryType("beauty", 6);
+  const latestProducts = getLatestProducts(6);
+
   return (
     <>
       <HomeSEO />
@@ -21,35 +30,35 @@ const Home = () => {
         {/* Featured Products Section Start  */}
         <ProductSection
           title="Featured Products"
-          products={products}
+          products={bestProducts}
           viewAllLink="/products"
         />
 
         {/* Women Products Section Start  */}
         <ProductSection
           title="Women Products"
-          products={products}
+          products={womenProducts}
           viewAllLink="/products"
         />
 
         {/* Men Accessories Products Section Start  */}
         <ProductSection
           title="Men Accessories"
-          products={products}
+          products={menProducts}
           viewAllLink="/products"
         />
 
         {/* Beauty Products Section Start  */}
         <ProductSection
           title="Beauty Products"
-          products={products}
+          products={beautyProducts}
           viewAllLink="/products"
         />
 
         {/* Latest Products Section Start  */}
         <ProductSection
           title="Latest Products"
-          products={products}
+          products={latestProducts}
           viewAllLink="/products"
         />
 

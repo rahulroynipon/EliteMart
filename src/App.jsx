@@ -33,7 +33,10 @@ function App() {
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route index element={<Home />} />
-              <Route path="product/:id" element={<Product />} />
+              <Route
+                path="product/:type/:category/:name/:id"
+                element={<Product />}
+              />
             </Route>
             <Route path="*" element={<NotFound />} />
           </Routes>

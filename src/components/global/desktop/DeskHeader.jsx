@@ -5,9 +5,15 @@ import { GiSelfLove } from "react-icons/gi";
 import { IoSearch } from "react-icons/io5";
 import { useEffect, useState } from "react";
 import cn from "../../../utils/cn";
+import { useNavigate } from "react-router";
 
 const DeskHeader = () => {
   const [isSticky, setIsSticky] = useState(false);
+  const navigate = useNavigate();
+
+  const goToHome = () => {
+    navigate("/");
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -29,7 +35,7 @@ const DeskHeader = () => {
     >
       <Container className="flex items-center justify-between">
         {/* Logo */}
-        <div>
+        <div onClick={goToHome} className="cursor-pointer">
           <img
             className="h-16 w-16 md:h-20 md:w-20 lg:h-24 lg:w-24 object-contain"
             src={Logo}

@@ -19,10 +19,10 @@ const Product = () => {
 
   useEffect(() => {
     if (type) {
-      const products = getProductsByCategoryType(type, 6);
+      const products = getProductsByCategoryType(type, 6, id);
       setSimilarProducts(products);
     }
-  }, [type]);
+  }, [type, id]);
 
   return (
     <>

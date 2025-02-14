@@ -8,12 +8,20 @@ const useDBStore = create((set, get) => ({
   categories: AllCategories,
   brands: AllBrands,
   selectedProduct: null,
+  searchProducts: [],
 
-  getProductsByCategoryType: (categoryId, count) => {
-    const filteredProducts = get().products.filter(
-      (product) => product?.category?.categoryTypeId === categoryId
+  getProductsByCategoryType: (categoryId, count, id) => {
+    const { products } = get();
+
+    if (!products?.length) return [];
+
+    const filteredProducts = products.filter(
+      (product) =>
+        product?.category?.categoryTypeId === categoryId &&
+        (!id || product?._id !== id)
     );
-    return count ? filteredProducts.slice(0, count) : filteredProducts;
+
+    return count > 0 ? filteredProducts.slice(0, count) : filteredProducts;
   },
 
   getProductsByRating: (max, min, count) => {
@@ -33,6 +41,18 @@ const useDBStore = create((set, get) => ({
       (a, b) => new Date(b.createdAt) - new Date(a.createdAt)
     );
     return count ? products.slice(0, count) : products;
+  },
+
+  getProductBySearch: (searchTerm) => {
+    if (!searchTerm) {
+      set({ searchProducts: [] });
+      return;
+    }
+
+    const products = get().products.filter((product) =>
+      product.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    set({ searchProducts: products });
   },
 }));
 

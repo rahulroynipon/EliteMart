@@ -15,7 +15,7 @@ const images = import.meta.glob("/src/assets/product/*.{png,jpg,jpeg,webp}", {
 });
 
 const ProductMainView = () => {
-  const { selectedProduct: product = {} } = useDBStore(); // Ensure product is defined
+  const { selectedProduct: product = {} } = useDBStore();
 
   const [order, setOrder] = useState(0);
   const [selectedImage, setSelectedImage] = useState(0);
@@ -158,7 +158,7 @@ const ProductMainView = () => {
               className={`h-11 w-11 border flex items-center justify-center transition-all ${
                 order === 0
                   ? "cursor-not-allowed opacity-50"
-                  : "hover:bg-gray-200"
+                  : "hover:bg-gray-200 cursor-pointer"
               }`}
               disabled={order === 0}
             >
@@ -172,7 +172,7 @@ const ProductMainView = () => {
               className={`h-11 w-11 border flex items-center justify-center transition-all ${
                 product?.instock === 0
                   ? "cursor-not-allowed opacity-50"
-                  : "hover:bg-gray-200"
+                  : "hover:bg-gray-200 cursor-pointer"
               }`}
               disabled={product?.instock === 0}
             >
@@ -185,7 +185,9 @@ const ProductMainView = () => {
             <button
               className={`px-4 py-2 bg-amber-500 text-white flex items-center justify-center w-36 hover:bg-amber-600 transition-all duration-300 h-10 text-sm font-medium
                 ${
-                  product?.instock === 0 ? "cursor-not-allowed opacity-50" : ""
+                  product?.instock === 0
+                    ? "cursor-not-allowed opacity-50"
+                    : "cursor-pointer"
                 }`}
               disabled={product?.instock === 0}
             >
@@ -193,7 +195,9 @@ const ProductMainView = () => {
             </button>
             <button
               className={`px-4 py-2 bg-primary text-white flex items-center justify-center w-36 hover:bg-primary/50 transition-all duration-300 h-10 text-sm font-medium ${
-                product?.instock === 0 ? "cursor-not-allowed opacity-50" : ""
+                product?.instock === 0
+                  ? "cursor-not-allowed opacity-50"
+                  : "cursor-pointer"
               }`}
               disabled={product?.instock === 0}
             >

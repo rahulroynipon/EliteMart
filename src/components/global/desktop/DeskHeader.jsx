@@ -6,13 +6,30 @@ import { IoSearch } from "react-icons/io5";
 import { useEffect, useState } from "react";
 import cn from "../../../utils/cn";
 import { useNavigate } from "react-router";
+import { SearchProduct } from "../SearchProduct";
+import useDBStore from "../../../store/DB";
+import { IoCloseOutline } from "react-icons/io5";
 
 const DeskHeader = () => {
   const [isSticky, setIsSticky] = useState(false);
   const navigate = useNavigate();
+  const [searchItem, setSearchItem] = useState("");
+  const { getProductBySearch, searchProducts } = useDBStore();
+
+  useEffect(() => {
+    getProductBySearch(searchItem);
+  }, [searchItem, getProductBySearch]);
 
   const goToHome = () => {
     navigate("/");
+  };
+
+  const searchTextHandler = (e) => {
+    setSearchItem(e.target.value);
+  };
+
+  const resetTextHandler = () => {
+    setSearchItem("");
   };
 
   useEffect(() => {
@@ -46,10 +63,13 @@ const DeskHeader = () => {
         {/* Search Bar */}
         <div className="relative w-full md:max-w-[25rem] lg:max-w-[30rem] flex bg-white">
           <input
+            value={searchItem}
+            onChange={searchTextHandler}
             type="text"
             placeholder="Search your products..."
-            className="h-12 w-full px-4 py-2 border outline-none bg-white focus:border-2 border-primary"
+            className="h-12 w-full pl-4 pr-8 py-2 border outline-none bg-white focus:border-2 border-primary"
           />
+
           <button
             className="w-14 h-12 flex items-center justify-center bg-primary text-white  
             transition-all duration-300 hover:bg-primary/70 cursor-pointer"
@@ -57,6 +77,19 @@ const DeskHeader = () => {
           >
             <IoSearch size={22} />
           </button>
+
+          {searchItem && (
+            <button
+              onClick={resetTextHandler}
+              className="absolute my-[.7rem] right-14 cursor-pointer
+               text-gray-600 hover:text-gray-800 transition-all duration-300s"
+            >
+              <IoCloseOutline size={24} />
+            </button>
+          )}
+          {searchProducts?.length > 0 && (
+            <SearchProduct onClose={resetTextHandler} />
+          )}
         </div>
 
         {/* Icons */}

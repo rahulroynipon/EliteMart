@@ -14,7 +14,11 @@ export const FooterSection = () => {
       >
         {/* Logo & Description */}
         <div>
-          <img className="h-26" src={Logo} alt="Elite Mart Logo" />
+          {
+            <Link to="/">
+              <img className="h-26" src={Logo} alt="Elite Mart Logo" />
+            </Link>
+          }
           <p className="mt-4 text-gray-600 text-sm leading-relaxed">
             Elite is one of the leading lifestyle e-commerce platforms in
             Bangladesh.

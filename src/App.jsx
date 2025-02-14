@@ -9,6 +9,7 @@ import ScrollToTop from "./components/global/ScrollToTop";
 const Home = lazy(() => import("./pages/Home"));
 const Product = lazy(() => import("./pages/Product"));
 const NotFound = lazy(() => import("./pages/NotFound"));
+const AllProducts = lazy(() => import("./pages/AllProducts"));
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -33,6 +34,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route index element={<Home />} />
+              <Route path="/products" element={<AllProducts />} />
               <Route
                 path="product/:type/:category/:name/:id"
                 element={<Product />}

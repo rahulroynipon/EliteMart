@@ -19,10 +19,15 @@ export const RelatedProductCard = ({ product }) => {
         /> */}
       </div>
 
-      <div className="w-full flex flex-col justify-between py-3">
-        <p className="text-sm font-medium text-gray-900 cursor-pointer hover:text-primary transition-colors">
-          <Link to={productLink}> {product?.title}</Link>
-        </p>
+      <div className="w-full flex flex-col justify-between py-3 pr-2">
+        <Link
+          to={productLink}
+          className="text-sm line-clamp-2 font-medium text-gray-900 cursor-pointer hover:text-primary transition-colors"
+        >
+          {product?.title}
+        </Link>
+
+        <StarRating rating={product?.rating} />
 
         <p className="text-sm text-gray-600">
           <span className="font-medium text-gray-600">Price: </span>
@@ -35,8 +40,6 @@ export const RelatedProductCard = ({ product }) => {
             </span>
           )}
         </p>
-
-        <StarRating rating={product?.rating} />
       </div>
     </div>
   );

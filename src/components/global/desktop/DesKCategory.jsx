@@ -49,7 +49,7 @@ export const DeskCategory = () => {
                       onMouseEnter={() => setActiveCategory(category._id)}
                     >
                       <div className="flex items-center text-gray-600 justify-between">
-                        {category.label}
+                        <span className="text-left"> {category.label}</span>
                         {category.subCategories && (
                           <MdOutlineArrowForwardIos className="text-gray-600" />
                         )}
@@ -62,7 +62,7 @@ export const DeskCategory = () => {
                             {category.subCategories.map((subCategory) => (
                               <li
                                 key={subCategory._id}
-                                className="px-4 py-2 text-gray-700 hover:bg-gray-100"
+                                className="px-4 py-2 text-gray-700 hover:bg-gray-100 text-left"
                               >
                                 {subCategory.label}
                               </li>

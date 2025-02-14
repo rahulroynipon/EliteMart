@@ -3,7 +3,7 @@ import Logo from "../../../assets/logo.png";
 import { BsCart3 } from "react-icons/bs";
 import { GiSelfLove } from "react-icons/gi";
 import { IoSearch } from "react-icons/io5";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import cn from "../../../utils/cn";
 import { useNavigate } from "react-router";
 import { SearchProduct } from "../SearchProduct";
@@ -15,6 +15,7 @@ const DeskHeader = () => {
   const navigate = useNavigate();
   const [searchItem, setSearchItem] = useState("");
   const { getProductBySearch, searchProducts } = useDBStore();
+  const searchRef = useRef();
 
   useEffect(() => {
     getProductBySearch(searchItem);
@@ -31,6 +32,15 @@ const DeskHeader = () => {
   const resetTextHandler = () => {
     setSearchItem("");
   };
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (searchRef.current && !searchRef.current.contains(event.target)) {
+        resetTextHandler();
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -61,7 +71,10 @@ const DeskHeader = () => {
         </div>
 
         {/* Search Bar */}
-        <div className="relative w-full md:max-w-[25rem] lg:max-w-[30rem] flex bg-white">
+        <div
+          ref={searchRef}
+          className="relative w-full md:max-w-[25rem] lg:max-w-[30rem] flex bg-white"
+        >
           <input
             value={searchItem}
             onChange={searchTextHandler}

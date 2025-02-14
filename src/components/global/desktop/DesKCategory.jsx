@@ -11,7 +11,7 @@ export const DeskCategory = () => {
   const [activeCategory, setActiveCategory] = useState(null);
 
   return (
-    <div className="relative z-30 bg-white shadow-md ">
+    <div className="relative z-20 bg-white shadow-md ">
       <ul onMouseLeave={() => setActiveType(null)}>
         {categoryList.map((type, index) => {
           const imageSrc =

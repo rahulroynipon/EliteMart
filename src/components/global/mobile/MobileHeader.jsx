@@ -6,15 +6,33 @@ import { IoClose } from "react-icons/io5";
 import Logo from "../../../assets/logo.png";
 import cn from "../../../utils/cn";
 import { useNavigate } from "react-router";
+import { SearchProduct } from "../SearchProduct";
+import useDBStore from "../../../store/DB";
 
 const MobileHeader = ({ onOpen }) => {
   const [isSticky, setIsSticky] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [searchItem, setSearchItem] = useState("");
+  const { getProductBySearch, searchProducts } = useDBStore();
+
   const navigate = useNavigate();
   const searchRef = useRef(null);
 
+  useEffect(() => {
+    getProductBySearch(searchItem);
+  }, [searchItem, getProductBySearch]);
+
   const goToHome = () => {
     navigate("/");
+  };
+
+  const searchTextHandler = (e) => {
+    setSearchItem(e.target.value);
+  };
+
+  const resetTextHandler = () => {
+    setSearchItem("");
+    setIsSearchOpen(false);
   };
 
   useEffect(() => {
@@ -26,7 +44,7 @@ const MobileHeader = ({ onOpen }) => {
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (searchRef.current && !searchRef.current.contains(event.target)) {
-        setIsSearchOpen(false);
+        resetTextHandler();
       }
     };
     document.addEventListener("mousedown", handleClickOutside);
@@ -61,10 +79,12 @@ const MobileHeader = ({ onOpen }) => {
             />
           ) : (
             <div
-              className="absolute right-0 top-0 flex items-center bg-white shadow-md rounded-full
-            border-1 border-primary px-5 py-2 w-[17rem] md:w-[30rem]"
+              className="absolute right-0 top-0 flex items-center bg-white shadow-md 
+            border-1 border-primary px-5 py-2 w-[20rem] md:w-[40rem] "
             >
               <input
+                value={searchItem}
+                onChange={searchTextHandler}
                 type="text"
                 placeholder="Search..."
                 className="w-full outline-none text-gray-700"
@@ -75,6 +95,13 @@ const MobileHeader = ({ onOpen }) => {
                 className="cursor-pointer text-gray-500"
                 onClick={() => setIsSearchOpen(false)}
               />
+
+              {searchProducts?.length ? (
+                <SearchProduct
+                  onClose={resetTextHandler}
+                  className="right-0 top-11"
+                />
+              ) : null}
             </div>
           )}
         </div>

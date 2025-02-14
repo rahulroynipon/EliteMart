@@ -1,12 +1,18 @@
 import { Link } from "react-router";
 import useDBStore from "../../store/DB";
 import { StarRating } from "../ui/StarRating";
+import cn from "../../utils/cn";
 
-export const SearchProduct = ({ onClose }) => {
+export const SearchProduct = ({ onClose, className }) => {
   const { searchProducts: products } = useDBStore();
 
   return (
-    <section className="absolute z-40 bg-white top-full shadow-2xl w-full h-[25rem] overflow-y-auto">
+    <section
+      className={cn(
+        "absolute z-40 bg-white top-full shadow-2xl w-full h-[25rem] overflow-y-auto",
+        className
+      )}
+    >
       {/* Header */}
       <div className="sticky top-0 h-12 flex items-center px-4 bg-white shadow-sm">
         <h3 className="font-medium">
@@ -36,8 +42,8 @@ export const SearchProduct = ({ onClose }) => {
                 <div className="h-16 w-20 shrink-0 bg-gray-200"></div>
 
                 {/* Product Title */}
-                <div className="">
-                  <p className="py-1 text-sm text-gray-600 group-hover:text-primary transition-all duration-300">
+                <div>
+                  <p className="py-1 line-clamp-2 text-sm text-gray-600 group-hover:text-primary transition-all duration-300">
                     {product.title}
                   </p>
                   <StarRating rating={product?.rating} />

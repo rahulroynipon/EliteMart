@@ -1,14 +1,13 @@
 import SEO from "../global/SEO";
+import { useLocation } from "react-router";
 import useDBStore from "../../store/DB";
 
 const ProductSEO = () => {
   const { selectedProduct: product } = useDBStore();
   if (!product) return;
 
-  const productName = product?.name?.replace(/ /g, "-").toLowerCase();
-  const productLink = `/product/${product?.category?.categoryTypeId}/${product?.category?.categoryId}/${productName}/${product?._id}`;
-
-  const productUrl = `${window.location.origin}/${productLink}`;
+  const location = useLocation();
+  const productUrl = `${window.location.origin}${location.pathname}`;
 
   return (
     <SEO

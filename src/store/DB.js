@@ -10,6 +10,7 @@ const useDBStore = create((set, get) => ({
   selectedProduct: null,
   searchProducts: [],
 
+/*************  ✨ Codeium Command 🌟  *************/
   getProductsByCategoryType: (categoryId, count, id) => {
     const { products } = get();
 
@@ -23,6 +24,7 @@ const useDBStore = create((set, get) => ({
 
     return count > 0 ? filteredProducts.slice(0, count) : filteredProducts;
   },
+/******  8a497980-f8be-4477-9ccb-b862062dbfec  *******/
 
   getProductsByRating: (max, min, count) => {
     const filteredProducts = get().products.filter(

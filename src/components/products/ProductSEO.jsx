@@ -1,28 +1,53 @@
 import SEO from "../global/SEO";
+import useDBStore from "../../store/DB";
 
 const ProductSEO = () => {
+  const { selectedProduct: product } = useDBStore();
+  if (!product) return;
+
+  const productName = product?.name?.replace(/ /g, "-").toLowerCase();
+  const productLink = `/product/${product?.category?.categoryTypeId}/${product?.category?.categoryId}/${productName}/${product?._id}`;
+
+  const productUrl = `${window.location.origin}/${productLink}`;
+
   return (
     <SEO
-      title="Shop the Best Products | Elite Mart"
-      description="Explore a wide range of high-quality fashion, clothing, electronics, and accessories at Elite Mart."
+      title={`${product?.name || "Product"} - Buy at Elite Mart`}
+      description={
+        product?.description ||
+        "Shop the best deals on high-quality fashion, clothing, electronics, and accessories at Elite Mart."
+      }
       keywords={[
+        product?.name || "Elite Mart",
         "online shopping",
         "best deals",
         "fashion",
         "electronics",
         "clothing",
-        "Elite Mart",
         "affordable products",
       ]}
-      canonicalUrl={`${window.location.origin}/products`}
-      ogType="website"
+      canonicalUrl={productUrl}
+      ogType="product"
       structuredData={{
         "@context": "https://schema.org",
-        "@type": "WebPage",
-        name: "Elite Mart Products",
+        "@type": "Product",
+        name: product?.name || "Elite Mart Product",
         description:
+          product?.description ||
           "Find the latest fashion trends, top-quality gadgets, and accessories at the best prices.",
-        url: `${window.location.origin}/products`,
+        image: product?.image || "/images/default-product.jpg",
+        url: productUrl,
+        brand: {
+          "@type": "Brand",
+          name: "Elite Mart",
+        },
+        offers: {
+          "@type": "Offer",
+          priceCurrency: "USD",
+          price: product?.price || "0.00",
+          availability: "https://schema.org/InStock",
+          url: productUrl,
+        },
       }}
     />
   );

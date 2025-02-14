@@ -1,5 +1,11 @@
+import AllProductsSEO from "../components/allproducts/AllProductsSEO";
+
 const AllProducts = () => {
-  return <div></div>;
+  return (
+    <>
+      <AllProductsSEO />
+    </>
+  );
 };
 
 export default AllProducts;

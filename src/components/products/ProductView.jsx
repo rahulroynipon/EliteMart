@@ -8,7 +8,7 @@ const ProductView = ({ products }) => {
   return (
     <Container>
       <section className="flex space-x-4 w-full">
-        <div className="w-[calc(100%-23rem)]">
+        <div className="lg:w-[calc(100%-23rem)]">
           <ProductMainView />
         </div>
 

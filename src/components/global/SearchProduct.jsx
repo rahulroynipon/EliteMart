@@ -2,6 +2,7 @@ import { Link } from "react-router";
 import useDBStore from "../../store/DB";
 import { StarRating } from "../ui/StarRating";
 import cn from "../../utils/cn";
+import LazyImage from "../../utils/LazyImage";
 
 export const SearchProduct = ({ onClose, className }) => {
   const { searchProducts: products } = useDBStore();
@@ -39,7 +40,9 @@ export const SearchProduct = ({ onClose, className }) => {
                 className="cursor-pointer group flex space-x-4 hover:bg-gray-100 transition-all duration-300 p-2"
               >
                 {/* Product Image Placeholder */}
-                <div className="h-16 w-20 shrink-0 bg-gray-200"></div>
+                <div className="h-16 w-20 shrink-0 bg-gray-200">
+                  <LazyImage src={product?.images[0]} alt={product?.title} />
+                </div>
 
                 {/* Product Title */}
                 <div>

@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import { StarRating } from "./StarRating";
+import LazyImage from "../../utils/LazyImage";
 
 export const RelatedProductCard = ({ product }) => {
   const discountedPrice = product.discount
@@ -10,22 +11,23 @@ export const RelatedProductCard = ({ product }) => {
   const productLink = `/product/${product?.category?.categoryTypeId}/${product?.category?.categoryId}/${productName}/${product?._id}`;
 
   return (
-    <div className="h-30 border-y border-gray/20  flex space-x-3  bg-white">
+    <Link
+      to={productLink}
+      className="h-30 border-y border-gray/20  flex space-x-3  bg-white"
+    >
       <div className="h-full w-28 shrink-0 bg-gray-200 overflow-hidden ">
-        {/* <img
-          src={product.image}
-          alt={product.name}
-          className="h-full w-full object-cover"
-        /> */}
+        <LazyImage
+          src={product?.images[0]}
+          div
+          alt={product.title}
+          className="transition-transform duration-300 hover:scale-105 shadow-md"
+        />
       </div>
 
       <div className="w-full flex flex-col justify-between py-3 pr-2">
-        <Link
-          to={productLink}
-          className="text-sm line-clamp-2 font-medium text-gray-900 cursor-pointer hover:text-primary transition-colors"
-        >
+        <p className="text-sm line-clamp-2 font-medium text-gray-900 cursor-pointer hover:text-primary transition-colors">
           {product?.title}
-        </Link>
+        </p>
 
         <StarRating rating={product?.rating} />
 
@@ -41,6 +43,6 @@ export const RelatedProductCard = ({ product }) => {
           )}
         </p>
       </div>
-    </div>
+    </Link>
   );
 };

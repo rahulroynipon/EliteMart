@@ -1,7 +1,8 @@
 import PropTypes from "prop-types";
 import { StarRating } from "./StarRating";
 import { BsCart3 } from "react-icons/bs";
-import { Link, useNavigate } from "react-router";
+import { Link } from "react-router";
+import LazyImage from "../../utils/LazyImage";
 
 export const ProductCard = ({ product }) => {
   const discountedPrice = product.discount
@@ -13,16 +14,16 @@ export const ProductCard = ({ product }) => {
 
   return (
     <div
-      className="w-full border border-gray-200 bg-white 
+      className="w-full border border-gray-200 bg-white
        hover:ring-1 ring-primary/20 transition-all duration-300 hover:shadow-lg"
     >
       <Link to={productLink}>
-        <div className="h-[13rem] relative bg-gray-200 flex justify-center items-center">
-          {/* <img
-          src={product.image}
-          alt={product.title}
-          className="w-full h-full object-cover"
-        /> */}
+        <div className="h-[13rem] overflow-hidden relative bg-gray-200 flex justify-center items-center">
+          <LazyImage
+            src={product?.images[0]}
+            alt={product?.title}
+            className="transition-transform duration-500 hover:scale-105 shadow-md"
+          />
           {product.discount > 0 && (
             <span className="absolute top-0 right-0 bg-red-600 text-white text-[13px] px-2 py-1">
               ৳{product.discount} OFF

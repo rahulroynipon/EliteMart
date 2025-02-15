@@ -9,10 +9,8 @@ import { BiSupport } from "react-icons/bi";
 import { RiSecurePaymentFill } from "react-icons/ri";
 import { FaAward } from "react-icons/fa";
 import useDBStore from "../../store/DB";
-
-const images = import.meta.glob("/src/assets/product/*.{png,jpg,jpeg,webp}", {
-  eager: true,
-});
+import LazyImage from "../../utils/LazyImage";
+import { motion } from "framer-motion";
 
 const ProductMainView = () => {
   const { selectedProduct: product = {} } = useDBStore();
@@ -53,60 +51,50 @@ const ProductMainView = () => {
     },
   ];
 
-  const imageSrc = [
-    "image1.webp",
-    "image2.webp",
-    "image3.webp",
-    "image4.jpg",
-    "image5.jpg",
-  ];
-
   return (
     <div className="z-0 w-full bg-white border border-gray-300 flex flex-col lg:flex-row shadow-sm overflow-hidden p-4 md:p-6 lg:p-8 space-y-5 lg:space-y-0 lg:space-x-5">
       {/* Image Section */}
-      <div className="w-full flex flex-col space-y-3">
-        <div className="max-h-[25rem] min-h-[22rem] w-full border border-gray-300 flex items-center justify-center overflow-hidden">
-          {imageSrc[selectedImage] && (
-            <img
-              key={selectedImage}
-              src={
-                images[`/src/assets/product/${imageSrc[selectedImage]}`]
-                  ?.default || imageSrc[selectedImage]
-              }
-              alt={product?.title || "Product Image"}
-              className="h-full w-full object-contain duration-500 ease-in-out opacity-0 scale-95 
-                 data-[loaded=true]:opacity-100 data-[loaded=true]:scale-100"
-              onLoad={(e) => e.target.setAttribute("data-loaded", "true")}
-            />
-          )}
+      <div className=" w-full flex flex-col space-y-3">
+        {/* product Image*/}
+
+        <div className=" lg:max-h-[29rem] lg:min-h-[25rem] w-full border border-gray-300 flex items-center justify-center overflow-hidden">
+          <motion.img
+            key={selectedImage}
+            src={product?.images[selectedImage]}
+            alt={product?.title}
+            className="transition-transform duration-500 hover:scale-110 shadow-md"
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.9 }}
+            transition={{ duration: 0.4 }}
+          />
         </div>
+
+        {/* product short images */}
         <div className="flex flex-wrap gap-2">
-          {imageSrc?.map((image, index) => {
-            const imagePath =
-              images[`/src/assets/product/${image}`]?.default || image;
-            return (
-              <div
-                key={index}
-                onClick={() => setSelectedImage(index)}
-                className={`w-[6rem] h-[6rem] shrink-0 flex items-center justify-center cursor-pointer border transition-all duration-300 ${
+          {product?.images?.map((image, index) => (
+            <div
+              key={index}
+              onClick={() => setSelectedImage(index)}
+              className={`w-[6rem] h-[6rem] shrink-0 overflow-hidden
+                flex items-center justify-center cursor-pointer border transition-all duration-300 ${
                   selectedImage === index
                     ? "border-primary border-2 scale-105"
                     : "border-gray-300"
                 }`}
-              >
-                <img
-                  src={imagePath}
-                  alt={product?.title || "Thumbnail"}
-                  className="h-full w-full object-contain"
-                />
-              </div>
-            );
-          })}
+            >
+              <LazyImage
+                src={image}
+                alt={product?.title}
+                className="transition-transform duration-500 hover:scale-105 shadow-md"
+              />
+            </div>
+          ))}
         </div>
       </div>
 
       {/* Product Details Section */}
-      <div className="w-full lg:w-[50rem] space-y-5">
+      <div className="w-full lg:w-[40rem] space-y-5">
         <h2 className="font-semibold text-lg text-gray-800 leading-tight">
           {product?.title || "Product Name"}
         </h2>
@@ -209,8 +197,8 @@ const ProductMainView = () => {
           <ul className="flex flex-col gap-3 mt-5 text-gray-700">
             {services.map((item) => (
               <li key={item?._id} className="flex items-center space-x-3 mt-1">
-                <div className="text-gray-600 w-10">{item?.icon}</div>
-                <div className="flex flex-col">
+                <div className="text-gray-500 w-10">{item?.icon}</div>
+                <div className="flex flex-col text-sm">
                   <span className="font-medium">{item?.title}</span>
                   <span className="text-sm text-gray-500">
                     {item?.description}

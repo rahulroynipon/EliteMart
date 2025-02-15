@@ -8,19 +8,19 @@ const ProductView = ({ products }) => {
   return (
     <Container>
       <section className="flex space-x-4 w-full">
-        <div className="lg:w-[calc(100%-23rem)]">
+        <div className="w-full lg:w-[calc(100%-24.1rem)]">
           <ProductMainView />
         </div>
 
         {!isMobile && (
-          <aside className="w-[23rem] shrink-0">
+          <aside className="lg:w-[23rem] shrink-0">
             <h2 className="text-lg font-semibold text-gray-800 bg-white p-4 border border-gray/20 shadow-sm">
               Related Products
             </h2>
             <div className="flex flex-col space-y-1">
               {products?.length > 0 ? (
                 products
-                  ?.slice(0, 5)
+                  ?.slice(0, 4)
                   .map((product) => (
                     <RelatedProductCard key={product._id} product={product} />
                   ))

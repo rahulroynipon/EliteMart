@@ -2,7 +2,11 @@
   {
     "_id": "1",
     "name": "Comfortable Cotton T-Shirt for Everyday Casual Wear and Outings",
-    "images": ["image1.webp", "image2.webp", "image3.webp"],
+    "images": [
+      "https://media.johnlewiscontent.com/i/JohnLewis/005069017?fmt=auto&$background-off-white",
+      "https://media.johnlewiscontent.com/i/JohnLewis/005069017alt3?fmt=auto&$background-off-white$",
+      "https://dz3aw12iizk17.cloudfront.net/cache/catalog/Lacoste/lacoste_pima_cotton_tee_2-870x1110.jpg"
+    ],
     "title": "Comfortable Cotton T-Shirt for Everyday Casual Wear and Outings",
     "price": 1200,
     "discount": 150,
@@ -40,7 +44,11 @@
   {
     "_id": "2",
     "name": "Elegant Salwar Kameez for Women with Hand-Embroidered Design",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://m.media-amazon.com/images/I/51vrlDvZGVL._AC_SY1000_.jpg",
+      "https://www.heenastyle.com/image/cache/catalog/10247-RT7746/FHRT7746177976-610x1050.jpg",
+      "https://images.indianweddingsaree.com/tr:w-555/AlternateView/1931732/A638448009690327625.jpg"
+    ],
     "title": "Elegant Salwar Kameez for Women with Hand-Embroidered Design",
     "price": 2500,
     "discount": 300,
@@ -71,7 +79,11 @@
   {
     "_id": "3",
     "name": "Long-Lasting Floral Perfume for Women with Elegant Packaging",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://s.alicdn.com/@sc04/kf/H71211ee17c864ceb9e1f47fa1e2f6f9d1.jpg_720x720q50.jpg",
+      "https://www.fragrancespice.com/cdn/shop/products/FX534165_3f736ce0-5b11-43da-8249-2dc1e8b99566_1200x1200.jpg?v=1594734761",
+      "https://i5.walmartimages.com/seo/ARM-AF-Club-de-Nuit-Imperiale-Eau-De-Parfum-Spray-for-Women-3-6-Oz_23a1e440-e46f-485c-8913-26a49cc2f912.86785c4c35e50b2e3982b1ed5ffad65d.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+    ],
     "title": "Long-Lasting Floral Perfume for Women with Elegant Packaging",
     "price": 1800,
     "discount": 0,
@@ -102,7 +114,11 @@
   {
     "_id": "4",
     "name": "Stylish and Comfortable Denim Jeans for Men with Slim Fit",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://media.kohlsimg.com/is/image/kohls/323407_ALT61?wid=400&hei=400&op_sharpen=1",
+      "https://images.asos-media.com/products/jack-jones-intelligence-pete-carrot-fit-denim-jeans-in-light-blue/23401003-4?$n_640w$&wid=513&fit=constrain",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-s6tilATXkA0ggbdNsMFN8KROiQTix8MMmP5y_B53uYynohawkcefAbVHVnkt_0zVjHk&usqp=CAU"
+    ],
     "title": "Stylish and Comfortable Denim Jeans for Men with Slim Fit",
     "price": 2200,
     "discount": 0,
@@ -133,7 +149,11 @@
   {
     "_id": "5",
     "name": "Beautiful Silk Saree for Women with Handwoven Design",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://m.media-amazon.com/images/I/513FanCJjXL._AC_UY350_.jpg",
+      "https://static3.azafashions.com/tr:w-317/uploads/product_gallery/1690297379867_1.jpg",
+      "https://m.media-amazon.com/images/I/71Q9B0wOSgL._AC_UY1100_.jpg"
+    ],
     "title": "Beautiful Silk Saree for Women with Handwoven Design",
     "price": 3500,
     "discount": 0,
@@ -164,7 +184,11 @@
   {
     "_id": "6",
     "name": "Anti-Ageing Cream for Women with Wrinkle Reduction Formula",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://vaadiorganics.mu/cdn/shop/files/3_85ce9597-1969-43fb-a756-82f9632a3b5e_1050x.jpg?v=1717063851",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsCe-RMRf7sosjtQB8gO3V90m4J9JpRVadNvo2eO2ZkSfBRfTjQI0jrBnMlKADmPF1bEs&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3dWq8zQVoCnPMuQyxD3_l05pvTNrgC5nmdAaTTx5L_tRVC7hPt7KvxKiaBdHur7gCJhw&usqp=CAU"
+    ],
     "title": "Anti-Ageing Cream for Women with Wrinkle Reduction Formula",
     "price": 1500,
     "discount": 100,
@@ -195,7 +219,11 @@
   {
     "_id": "7",
     "name": "Casual Shirt for Boys with Comfortable Fabric and Easy Wash",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://img.drz.lazcdn.com/static/bd/p/e9710e19d4905640405978415f613f94.jpg_960x960q80.jpg_.webp",
+      "https://static-01.daraz.com.bd/p/ed372eba3a680a9f0346a5594dbc0142.jpg",
+      "https://img.drz.lazcdn.com/static/bd/p/92b46d92ee6e845a8ed337c526376ae8.jpg_720x720q80.jpg"
+    ],
     "title": "Casual Shirt for Boys with Comfortable Fabric and Easy Wash",
     "price": 800,
     "discount": 50,
@@ -226,7 +254,11 @@
   {
     "_id": "8",
     "name": "Stylish Home Decor Cushion with Soft and Durable Fabric",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://m.media-amazon.com/images/I/91BJccyiLKL.jpg",
+      "https://m.media-amazon.com/images/I/91u0PT4NrKL.jpg",
+      "https://m.media-amazon.com/images/I/71m2JBxm2OL.jpg"
+    ],
     "title": "Stylish Home Decor Cushion with Soft and Durable Fabric",
     "price": 600,
     "discount": 50,
@@ -252,12 +284,16 @@
       "categoryId": "home-decor",
       "subCategoryId": "cushions"
     },
-    "createdAt": "2023-09-28T13:20:00Z"
+    "createdAt": "2093-09-28T13:20:00Z"
   },
   {
     "_id": "9",
     "name": "Premium Leather Wallet for Men with Multiple Card Slots",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://img4.dhresource.com/webp/m/0x0/f3/albu/jc/s/13/0c96120f-e314-4f83-856f-faa794ddab4c.jpg",
+      "https://rukminim2.flixcart.com/image/850/1000/xif0q/wallet-card-wallet/x/i/i/orange-3d-emboss-dots-bi-fold-faux-leather-4-atm-card-slots-original-imagdsnnktqeztcu.jpeg?q=90&crop=false",
+      "https://rukminim2.flixcart.com/image/850/1000/k3t21zk0/wallet-card-wallet/u/y/4/stylish-pu-wallet-black-card-wallet-wallet-jars-collections-original-imafmusz7v6zhwhn.jpeg?q=90&crop=false"
+    ],
     "title": "Premium Leather Wallet for Men with Multiple Card Slots",
     "price": 1000,
     "discount": 0,
@@ -288,7 +324,11 @@
   {
     "_id": "10",
     "name": "Lightweight Running Shoes for Women with Cushioned Sole",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://contents.mediadecathlon.com/p1811546/3ae918d2fba2e178c98f55ed474ce3ef/p1811546.jpg?format=auto&quality=70&f=2520x0",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsmdGuZKRTSaHcpuMz_rzvm9JZZbt5fOu8J5ZVIzlpOEs9cFBgf6tC73iUXEsZnyBF-Kw&usqp=CAU",
+      "https://i.ebayimg.com/images/g/GQMAAOSweKZjmy0m/s-l1200.jpg"
+    ],
     "title": "Lightweight Running Shoes for Women with Cushioned Sole",
     "price": 2800,
     "discount": 300,
@@ -319,7 +359,11 @@
   {
     "_id": "11",
     "name": "High-Quality Wireless Headphones with Noise Cancellation Feature",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuOm7B3B5plYcoQsazOxNrCmw05yq3azw5P52kIlti6lwJOdS-DVvxNgb9NakLqpeJUHQ&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ_R0Ayejr0kKFB05g_F1YeH53o7JZvc8dHcXDGIhEBxJTCG_JlEaRIXK4HNzOAIN0wgk&usqp=CAU",
+      "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/74/1166503/1.jpg?6214"
+    ],
     "title": "High-Quality Wireless Headphones with Noise Cancellation Feature",
     "price": 4500,
     "discount": 0,
@@ -350,7 +394,11 @@
   {
     "_id": "12",
     "name": "Elegant Gold-Plated Earrings for Women with Lightweight Design",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://rukminim2.flixcart.com/image/850/1000/xif0q/earring/j/p/c/na-flp-e28-e20-delfa-original-imagpyzzsmcsvm8p.jpeg?q=90&crop=false",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4tuK9Yo5T4Z32xH4ohNbrYJ4AizVXNZRbVqi1eTbLRp7sl3_JSBx3t2zlLpGbhdZky4Q&usqp=CAU",
+      "https://assets.ajio.com/medias/sys_master/root/20230902/yNb4/64f24418ddf7791519917ccd/-473Wx593H-466523108-gold-MODEL.jpg"
+    ],
     "title": "Elegant Gold-Plated Earrings for Women with Lightweight Design",
     "price": 1200,
     "discount": 100,
@@ -381,7 +429,11 @@
   {
     "_id": "13",
     "name": "Formal Shirt for Men with Slim Fit and Cotton Fabric",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://img.drz.lazcdn.com/static/bd/p/c08cb0c762c2b266024e14514bfd6719.jpg_720x720q80.jpg",
+      "https://static-01.daraz.com.bd/p/aef9c1f6b0a88f163b9c3b74cbe8575c.jpg",
+      "https://img.drz.lazcdn.com/static/bd/p/e8a1556b96380476211591962049afdc.jpg_720x720q80.jpg"
+    ],
     "title": "Formal Shirt for Men with Slim Fit and Cotton Fabric",
     "price": 1500,
     "discount": 200,
@@ -408,7 +460,11 @@
   {
     "_id": "14",
     "name": "Stylish Handbag for Women with Premium Leather and Adjustable Strap",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://canary.contestimg.wish.com/api/webimage/5d79f07d4374d2322a9d80ae-large.jpg?cache_buster=a66117b5be3e86ca4c00632accca6787",
+      "https://m.media-amazon.com/images/I/61lWGKjQqiL._AC_SY395_.jpg",
+      "https://m.media-amazon.com/images/I/61q7X2EdQ+L._AC_UY780_.jpg"
+    ],
     "title": "Stylish Handbag for Women with Premium Leather and Adjustable Strap",
     "price": 2500,
     "discount": 300,
@@ -439,7 +495,11 @@
   {
     "_id": "15",
     "name": "Comfortable Sports Shoes for Kids with Breathable Mesh Upper",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://image.made-in-china.com/2f0j00qTRkNPilhVrO/Breathable-Mesh-Upper-Children-Kids-Sneakers-Casual-Sport-Shoes-Ex-23r2326.webp",
+      "https://image.made-in-china.com/202f0j00qERbOYhfJVgy/Breathable-Mesh-Upper-Children-Kids-Sneakers-Casual-Sport-Shoes-Ex-23r2326.webp",
+      "https://ae01.alicdn.com/kf/Sd0d38309006e4a90acb48a9fab13e013S.jpg"
+    ],
     "title": "Comfortable Sports Shoes for Kids with Breathable Mesh Upper",
     "price": 1200,
     "discount": 100,
@@ -470,7 +530,11 @@
   {
     "_id": "16",
     "name": "Smart Watch with Fitness Tracking and Heart Rate Monitor",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://images-cdn.ubuy.co.in/65371e3ab285a86dbc7bc033-smart-watch-for-men-women-quick-text.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY3XABk7PibYV8tFm-bbJ4DJ7v9JvZn8aHsuF9ENcncIK8-gMCn-RG3lDU7we2w3Qivxo&usqp=CAU",
+      "https://images.tokopedia.net/img/cache/700/VqbcmM/2023/11/27/7c6ebc03-3f9c-4beb-8d48-0db109c9ed2b.jpg"
+    ],
     "title": "Smart Watch with Fitness Tracking and Heart Rate Monitor",
     "price": 5000,
     "discount": 600,
@@ -496,12 +560,16 @@
       "categoryId": "smart-wearables",
       "subCategoryId": "smart-watch"
     },
-    "createdAt": "2023-04-28T13:10:00Z"
+    "createdAt": "2099-04-28T13:10:00Z"
   },
   {
     "_id": "17",
     "name": "Stylish Sunglasses for Women with UV Protection and Trendy Design",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://images.othoba.com/images/thumbs/0622018_fashionable-sunglasses-for-women.webp",
+      "https://static-01.daraz.com.bd/p/mdc/9f9d73bc3aa520753cea2cf8f02ca11f.jpg",
+      "https://img.fruugo.com/product/3/37/839935373_0340_0340.jpg"
+    ],
     "title": "Stylish Sunglasses for Women with UV Protection and Trendy Design",
     "price": 800,
     "discount": 100,
@@ -532,7 +600,11 @@
   {
     "_id": "18",
     "name": "Comfortable Running Shoes for Men with Cushioned Sole and Breathable Mesh",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://cdn.hepsiglobal.com/prod/media/6910/20230912/f0021143-7080-47a0-ac95-ee53280e47a2.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrHh7qEAeEPff77ukubSKm-oPiy6yWnitzqGuQDgZLiX2BPtGxD-CufcLetqMzOxBQUEQ&usqp=CAU",
+      "https://s.alicdn.com/@sc04/kf/Hd7cb036e93c9420782f8635870d73f2dG.jpg_720x720q50.jpg"
+    ],
     "title": "Comfortable Running Shoes for Men with Cushioned Sole and Breathable Mesh",
     "price": 3000,
     "discount": 0,
@@ -563,7 +635,11 @@
   {
     "_id": "19",
     "name": "Long-Lasting Matte Lipstick for Women with Multiple Shades",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://media6.ppl-media.com//tr:h-235,w-235,c-at_max,dpr-2,q-40/static/img/product/214914/miss-rose-2-in-1-creamy-matte-lipstick-long-lasting-color-and-waterproof-smudge-proof-lipstick-shade-no-46-7102-001-46_1_display_1605236722_3e92eee7.jpg",
+      "https://img.drz.lazcdn.com/static/bd/p/be1a801e701e3ef02b04482a419f178c.jpg_720x720q80.jpg",
+      "https://www.dolovemk.com/cdn/shop/files/13240364762_89252229_1024x1024.jpg?v=1714370458"
+    ],
     "title": "Long-Lasting Matte Lipstick for Women with Multiple Shades",
     "price": 500,
     "discount": 50,
@@ -594,7 +670,11 @@
   {
     "_id": "20",
     "name": "Stylish Belt for Men with Genuine Leather and Adjustable Buckle",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://zaysbd.com/cdn/shop/files/F_1_9769bc99-0535-4975-a4cc-4583a3bdcb0e.jpg?v=1725309060&width=1080",
+      "https://s.alicdn.com/@sc04/kf/Hfd4dac5744de4f89889c5008ff0886432.jpg_300x300.jpg",
+      "https://m.media-amazon.com/images/I/615PL5bPbkL._AC_SL1080_.jpg"
+    ],
     "title": "Stylish Belt for Men with Genuine Leather and Adjustable Buckle",
     "price": 700,
     "discount": 50,
@@ -625,7 +705,11 @@
   {
     "_id": "21",
     "name": "Elegant Earrings for Women with Gold-Plated Design and Lightweight Feel",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://i.pinimg.com/736x/25/68/ab/2568ab548f273cd87e714f28a379db87.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCIDkvzgWnUQ-FS-2v-VgpfDAi_g9AFx1H4xtskN1DH4WqMuCjyH02Kb8Q2gux3sT2DPI&usqp=CAU",
+      "https://rudradhan.com/cdn/shop/files/IMG_6772.jpg?v=1713430658&width=1500"
+    ],
     "title": "Elegant Earrings for Women with Gold-Plated Design and Lightweight Feel",
     "price": 600,
     "discount": 50,
@@ -656,7 +740,11 @@
   {
     "_id": "22",
     "name": "Premium Leather Wallet for Men with Multiple Card Slots and Stylish Design",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://cimoni.com/cdn/shop/files/DSC02244_1500x.jpg?v=1691477314",
+      "https://5.imimg.com/data5/SELLER/Default/2023/6/314543172/XR/HO/PN/181164565/0w8a9191-500x500.JPG",
+      "https://cimoni.com/cdn/shop/files/519dWtMNnEL._SX679_grande.jpg?v=1707125834"
+    ],
     "title": "Premium Leather Wallet for Men with Multiple Card Slots and Stylish Design",
     "price": 1000,
     "discount": 100,
@@ -687,7 +775,11 @@
   {
     "_id": "23",
     "name": "Comfortable Sandals for Women with Adjustable Straps and Durable Sole",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://i.etsystatic.com/14253082/r/il/7345ae/6410644015/il_fullxfull.6410644015_150n.jpg",
+      "https://holysouq.com/cdn/shop/products/yael-leather-crossover-ankle-strap-sandal-sandals-286_800x.jpg?v=1623223511",
+      "https://jerusalemsandals.com/cdn/shop/files/TheorginalBrn_678268cb-cd97-4398-97e9-2ae03be86d5c_1946x.png.jpg?v=1728081903"
+    ],
     "title": "Comfortable Sandals for Women with Adjustable Straps and Durable Sole",
     "price": 1500,
     "discount": 0,
@@ -718,7 +810,11 @@
   {
     "_id": "24",
     "name": "Formal Trousers for Men with Slim Fit and Cotton Fabric",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://5.imimg.com/data5/JA/KG/ZM/SELLER-100243100/mens-formal-trouser-500x500.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2023/7/326233093/TD/KP/UE/193245561/men-formal-pants.jpg",
+      "https://images.meesho.com/images/products/127074554/rqmeh_512.webp"
+    ],
     "title": "Formal Trousers for Men with Slim Fit and Cotton Fabric",
     "price": 1800,
     "discount": 200,
@@ -745,7 +841,11 @@
   {
     "_id": "25",
     "name": "Elegant Necklace for Women with Gold-Plated Design and Lightweight Feel",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://images.meesho.com/images/products/238282875/iyxsa_512.webp",
+      "https://theloupempls.com/cdn/shop/files/G7-S005-P1078265.jpg?v=1716075887&width=1445",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_gVdDYWBqidJyxzp2FQ4f3cohKF9ZCRZkvy9FBEvJJOIGTggWTqEJrcPrL0IjER50J9Q&usqp=CAU"
+    ],
     "title": "Elegant Necklace for Women with Gold-Plated Design and Lightweight Feel",
     "price": 2000,
     "discount": 300,
@@ -776,7 +876,11 @@
   {
     "_id": "26",
     "name": "Comfortable Sweatshirt for Men with Slim Fit and Cotton Fabric",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1725908495-1712255693-lululemon-x2a8846-660-66df460c24d62.jpg?crop=1xw:1xh;center,top&resize=980:*",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPN5xcrYQn-G8hzM6z_QLU5P_mCFtgQlAcuvuYgs5Py-ZyuKWsLXExCGgxATpxa4i8tRc&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlnCy5gh4mYW_M9Zw9bH73AGNbZdfumQcfYG_sf3YIsdcYbXpNow7F3ITmFWTRDCP2jhU&usqp=CAU"
+    ],
     "title": "Comfortable Sweatshirt for Men with Slim Fit and Cotton Fabric",
     "price": 1500,
     "discount": 200,
@@ -803,7 +907,11 @@
   {
     "_id": "27",
     "name": "Stylish Kurti for Women with Hand-Embroidered Design and Cotton Fabric",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKKY6WEKXOdEN3FxWz_9gRHFhO8Zf3McJch0vgfwkSXlhmozeXCjhhf61aHQFoe4P2Do4&usqp=CAU",
+      "https://houseofkari.in/cdn/shop/files/2_7320732a-13a1-4082-bfe7-931d268027e8.jpg?v=1738043191&width=2048",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwbow51M2ddAvMySrxsKhvbYq3gP3uJu_0FdecQFW0ZabMehZs-8QWH1HMekevcSfQPNc&usqp=CAU"
+    ],
     "title": "Stylish Kurti for Women with Hand-Embroidered Design and Cotton Fabric",
     "price": 1200,
     "discount": 150,
@@ -834,7 +942,11 @@
   {
     "_id": "28",
     "name": "Stylish Formal Shoes for Men with Genuine Leather and Comfortable Sole",
-    "images": ["image1.webp", "image2.webp"],
+    "images": [
+      "https://ae01.alicdn.com/kf/S3d86b99f93984bd180cc95bb4e2f3814Q.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiNw2NIEHJJsmAvSMDnPlSjL9NXKiP9zveVg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST8g6wdv4uel7ixSVcJL9_9-ZY7mr4FzGDMuK6Ut2TpgNqMFVol0XFPBAxVeycGDQ_SRg&usqp=CAU"
+    ],
     "title": "Stylish Formal Shoes for Men with Genuine Leather and Comfortable Sole",
     "price": 2500,
     "discount": 300,
@@ -865,7 +977,11 @@
   {
     "_id": "29",
     "name": "Long-Lasting Matte Lipstick for Women with Multiple Shades",
-    "images": ["lipstick1.webp", "lipstick2.webp", "lipstick3.webp"],
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuhxoup9HxlEE_ednu74mwB2JKgppaTuue4g&s",
+      "https://rukminim1.flixcart.com/image/300/300/xif0q/lipstick/f/f/v/12-intense-pigmentation-and-transfer-resistant-liquid-matte-original-imagvwutwte8gxba.jpeg",
+      "https://rukminim2.flixcart.com/image/850/1000/xif0q/lipstick/9/q/s/6-matte-liquid-lipstick-smudge-proof-beauty-women-original-imagnrrj4zpq6vwh.jpeg?q=90&crop=false"
+    ],
     "title": "Long-Lasting Matte Lipstick for Women with Multiple Shades",
     "price": 500,
     "discount": 0,
@@ -903,7 +1019,11 @@
   {
     "_id": "30",
     "name": "Anti-Ageing Cream for Women with Wrinkle Reduction Formula",
-    "images": ["cream1.webp", "cream2.webp", "cream3.webp"],
+    "images": [
+      "https://m.media-amazon.com/images/I/71KPJWo2A9L.jpg",
+      "https://m.media-amazon.com/images/I/915cohrXSVL.jpg",
+      "https://m.media-amazon.com/images/I/71qgh5oPKtL._AC_UF1000,1000_QL80_.jpg"
+    ],
     "title": "Anti-Ageing Cream for Women with Wrinkle Reduction Formula",
     "price": 1500,
     "discount": 100,
@@ -941,7 +1061,11 @@
   {
     "_id": "31",
     "name": "Hair Repair Shampoo for Damaged Hair with Argan Oil",
-    "images": ["shampoo1.webp", "shampoo2.webp", "shampoo3.webp"],
+    "images": [
+      "https://cdn.zeptonow.com/production/ik-seo/tr:w-640,ar-1500-1500,pr-true,f-auto,q-80/inventory/product/f13ec693-5437-45a7-8fd2-191ba72a25ff-1T8AuWT2tbzua0pjHLtv2WrFSpSwl_wXx/Herbal-Essences-Argan-Oil-of-Morocco-Shampoo-For-Hair-Repair-and-No-Frizz.jpeg",
+      "https://thealamsbd.com/wp-content/uploads/2024/12/Herbal-Essences-Argan-Oil-Of-Morocco-Repair-Shampoo-600-1.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7yAN95-B-3NX1X6Y6iA3vZPtzfsIF71ECaMELSh-rk6l8WUudy-c795EdUGHGD0l1qz8&usqp=CAU"
+    ],
     "title": "Hair Repair Shampoo for Damaged Hair with Argan Oil",
     "price": 800,
     "discount": 50,
@@ -979,7 +1103,11 @@
   {
     "_id": "32",
     "name": "Floral Perfume for Women with Long-Lasting Fragrance",
-    "images": ["perfume1.webp", "perfume2.webp", "perfume3.webp"],
+    "images": [
+      "https://image.made-in-china.com/318f0j00DTQUKVqcvokR/20240701-70e2c1aed7f1998b-470551727399-mp4-264-sd-unlimit-taobao-mp4.webp",
+      "https://img4.dhresource.com/webp/m/0x0/f3/albu/jc/y/22/50ea2685-6c39-43a6-8209-4074e457dd48.jpg",
+      "https://down-ph.img.susercontent.com/file/ph-11134207-7r990-lqwzq8sd19f981"
+    ],
     "title": "Floral Perfume for Women with Long-Lasting Fragrance",
     "price": 1800,
     "discount": 200,
@@ -1017,7 +1145,11 @@
   {
     "_id": "34",
     "name": "Men's Grooming Kit with Trimmer, Shaver, and Accessories",
-    "images": ["grooming1.webp", "grooming2.webp", "grooming3.webp"],
+    "images": [
+      "https://www.nepal.ubuy.com/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNjFOSmhQN2diOFMuX1NMMTUwMF8uanBn.jpg",
+      "https://m.media-amazon.com/images/I/61V6sRrus7L.jpg",
+      "https://m.media-amazon.com/images/I/81Fv6+VRYnL._AC_UF350,350_QL80_.jpg"
+    ],
     "title": "Men's Grooming Kit with Trimmer, Shaver, and Accessories",
     "price": 2500,
     "discount": 0,

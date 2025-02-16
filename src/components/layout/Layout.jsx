@@ -22,7 +22,7 @@ export const Layout = () => {
   };
 
   return (
-    <div className="font-Poppins bg-light-gray min-h-screen">
+    <div className="font-Poppins text-gray-800 bg-light-gray min-h-screen">
       {isMobile && <MobileMenu isOpen={isOpen} onClose={closeMenu} />}
       {isMobile ? <MobileHeader onOpen={openMenu} /> : <DeskHeader />}
       {isMobile ? <MobileNavbar /> : <DeskNavbar />}
